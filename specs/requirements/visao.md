@@ -12,30 +12,6 @@
 | :--------: | :----: | :---------------------------: | :--------------: |
 | 25/05/2025 |  1.0   |     Criação do documento      | Joana Elise, Jonata Barbosa,                                                 Matheus Barbosa, Leidiana Nascimento |
 
-## Sumário
-
-- [Introdução](#introdução)
-  - [Propósito](#propósito)
-  - [Definições e abreviações](#definições-e-abreviações)
-    - [Abreviações](#abreviações)
-    - [Definições](#definições)
-  - [Escopo do produto](#escopo-do-produto)
-- [Posicionamento](#posicionamento)
-  - [Oportunidade de negócios](#oportunidade-de-negócios)
-  - [Descrição dos benefícios para os clientes e dos problemas resolvidos](#descrição-dos-benefícios-para-os-clientes-e-dos-problemas-resolvidos)
-- [Descrição dos stakeholders e dos usuários](#descrição-dos-stakeholders-e-dos-usuários)
-  - [Stakeholders](#stakeholders)
-  - [Usuários e atores](#usuários-e-atores)
-- [Descrição do ambiente de uso](#descrição-do-ambiente-de-uso)
-  - [Ambiente de uso](#ambiente-de-uso)
-  - [Necessidades principais quanto ao ambiente](#necessidades-principais-quanto-ao-ambiente)
-- [Visão geral do produto](#visão-geral-do-produto)
-  - [Visão geral](#visão-geral)
-  - [Custo e venda](#custo-e-venda)
-  - [Licenciamento e instalação](#licenciamento-e-instalação)
-  - [Características e funcionalidades de alto nível](#características-e-funcionalidades-de-alto-nível)
-  - [Restrições](#restrições)
-
 # Introdução
 
 Agregar valor ao produto e desenvolver formas de diferenciação em relação à concorrência são estratégias amplamente adotadas por empresas de diversos setores com o objetivo de fidelizar seus clientes. Nesse cenário de constantes transformações e novas perspectivas, surge o TerapiaWeb como uma solução para ampliar a eficácia do planejamento e da gestão voltados aos profissionais de Terapia Ocupacional. O grande diferencial deste aplicativo está em sua capacidade de se tornar uma ferramenta estratégica, tanto para profissionais autônomos quanto para empresas da área, uma vez que o Sistema TerapiaWeb nasce com o propósito central de atender às necessidades dos clientes e promover sua satisfação.
@@ -123,8 +99,7 @@ Segue tabela com os usuários e atores do sistema:
 | Usuário                  | Descrição                                                                                                    | Responsabilidades                                                                                                                                                                                                                | Stakeholders                                                                                    |
 | ------------------------ | ------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
 | Terapeuta Ocupacional                | Profissional responsável por usar o sistema. | Criar prontuários, registrar laudos.            | Equipe de Desenvolvimento, Gerente de Projeto, Departamento de Atendimento ao Cliente           |
-| Assistente Administrativo
-(caso exista)  | Profissional responsável por auxiliar nas tarefas administrativas.            | Gerenciar agendamentos, digitalizar documentos. | TO, Equipe de Desenvolvimento, Gerente de Projeto |
+| Assistente Administrativo (caso exista)  | Profissional responsável por auxiliar nas tarefas administrativas.            | Gerenciar agendamentos, digitalizar documentos. | TO, Equipe de Desenvolvimento, Gerente de Projeto |
 | Administrador do Sistema | Profissional responsável por gerenciar e manter o sistema.                                                   | Gerenciar os usuários do sistema, realizar backup dos dados, atualizar o sistema e garantir o seu funcionamento adequado.                                                                                                        | Equipe de Desenvolvimento, Gerente de Projeto                                                   |
 
 ---
@@ -132,37 +107,32 @@ Segue tabela com os usuários e atores do sistema:
 # Descrição do ambiente de uso
 
 ## Ambiente de uso
-
 A seguir, são descritos alguns ambientes em que o sistema pode ser utilizado:
 
 ### Ambiente de Trabalho
-Consultórios particulares com estrutura básica (computador e internet doméstica).
-Atendimentos domiciliares com uso de notebook.
-
+- Consultórios particulares com estrutura básica (computador e internet doméstica).
+- Atendimentos domiciliares com uso de notebook ou tablet.
 
 ### Habilidades dos Usuários
-Formação superior em Terapia Ocupacional.
-Baixo domínio de sistemas digitais especializados.
-Experiência com ferramentas básicas como Word e Excel.
-
+- Formação superior em Terapia Ocupacional.
+- Baixo domínio de sistemas digitais especializados.
+- Experiência com ferramentas básicas como Word e Excel.
 
 ### Riscos Identificados
-Sem o sistema: perda de dados, falhas de agendamento, sanções por não conformidade com a LGPD.
-Com o sistema (mal implementado): baixa adesão por dificuldade de uso, vazamento de dados.
-
+- Sem o sistema: perda de dados, falhas de agendamento, sanções por não conformidade com a LGPD.
+- Com o sistema (mal implementado): baixa adesão por dificuldade de uso, vazamento de dados.
 
 ### Qualidade Esperada
-Alta disponibilidade (24/7).
-Interface simples e intuitiva.
-Ausência de falhas críticas.
-Atualizações frequentes e suporte técnico.
+- Alta disponibilidade (24/7).
+- Interface simples e intuitiva.
+- Ausência de falhas críticas.
+- Atualizações frequentes e suporte técnico.
 
 ### O sistema TerapiaWeb será utilizado principalmente em:
 - Consultórios particulares: Equipados com um notebook ou desktop com acesso à internet.
-- Ambientes domiciliares: Utilização do sistema em notebooks, com ou sem acesso à internet (funcionalidade offline parcial).
+- Ambientes domiciliares: Utilização do sistema em notebooks ou tablets, com ou sem acesso à internet (funcionalidade offline parcial).
 - Infraestrutura mínima necessária: Navegador web atualizado (Google Chrome, Firefox, Edge ou Safari), conexão estável com a internet para uso completo das funcionalidades.
-- Condições de uso: Ambientes silenciosos, com tempo reservado para preenchimento de dados clínicos e administrativos, geralmente entre atendimentos ou ao final do expediente.
-
+- Condições de uso: Ambientes silenciosos, com tempo reservado para preenchimento de dados clínicos e administrativos, geralmente durante ou no término dos atendimentos ou ao final do expediente.
 
 O uso será feito por profissionais com domínio básico de informática, sem necessidade de treinamento avançado. A interface deve priorizar clareza, simplicidade e foco nas principais tarefas do dia a dia.
 
@@ -186,12 +156,10 @@ O uso será feito por profissionais com domínio básico de informática, sem ne
 - Compatibilidade com tablets (modo paisagem).
 - Offline: funções básicas disponíveis sem internet.
 
-
 ### Infraestrutura
 - Hospedagem em nuvem (AWS ou Google Cloud).
 - Backup automatizado e redundante.
 - Suporte a criptografia e autenticação segura.
-
 
 ### Tecnologias Sugeridas
 - Frontend: React.js + Tailwind CSS
@@ -202,6 +170,7 @@ O uso será feito por profissionais com domínio básico de informática, sem ne
 ### Diagrama de Contexto:
 
 ![Diagrama de contexto do sistema TerapiaWeb](../../assets/images/architecture.jpg)
+
 
 # Visão geral do produto
 
