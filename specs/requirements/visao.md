@@ -1,8 +1,8 @@
 <h1>Visão do Produto</h1>
 
-<h2>Sistema de Controle de Garantias de Produtos (SCGP)</h2>
+<h2>TerapiaWeb</h2>
 
-<small>Versão 1.2</small>
+<small>Versão 1.0</small>
 
 ---
 
@@ -10,8 +10,7 @@
 
 |    Data    | Versão |           Descrição           |      Autor       |
 | :--------: | :----: | :---------------------------: | :--------------: |
-| 25/05/2025 |  1.0   |     Criação do documento      | Joana Elise, Jonata Barbosa, 
-                                                        Matheus Barbosa, Leidiana Nascimento |
+| 25/05/2025 |  1.0   |     Criação do documento      | Joana Elise, Jonata Barbosa,                                                 Matheus Barbosa, Leidiana Nascimento |
 
 ## Sumário
 
