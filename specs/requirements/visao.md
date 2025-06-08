@@ -13,6 +13,8 @@
 |    Data    | Versão |           Descrição           |      Autor       |
 | :--------: | :----: | :---------------------------: | :--------------: |
 | 25/05/2025 |  1.0   |     Criação do documento      | Joana Elise, Jonata Barbosa, Matheus Barbosa, Leidiana Nascimento |
+| 08/06/2025 |  1.1   |    Correções do documento      | Joana Elise, Jonata Barbosa, Matheus Barbosa, Leidiana Nascimento |
+
 
 # Introdução
 
