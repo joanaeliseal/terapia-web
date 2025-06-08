@@ -8,8 +8,7 @@
 
 |    Data    | Versão |           Descrição           |      Autor       |
 | :--------: | :----: | :---------------------------: | :--------------: |
-| 25/05/2025 |  1.0   |     Criação do documento      | Joana Elise, Jonata Barbosa, Matheus Barbosa, Leidiana Nascimento |
-| 08/06/2025 |  1.1   | Adição de novas informações | Joana Elise, Jonata Barbosa, Matheus Barbosa, Leidiana Nascimento |
+| 08/06/2025 |  1.0   |     Criação do documento      | Joana Elise, Jonata Barbosa, Matheus Barbosa, Leidiana Nascimento |
 
 ---
 
@@ -66,27 +65,75 @@ Os requisitos funcionais são descritos a seguir.
 
 ### Módulo 1: Pacientes e Prontuários
 
-- **RF000** - Como TO, quero cadastrar um novo paciente com informações pessoais básicas, contendo nome, CPF, certidão de nascimento ou casamento, data de nascimento, telefone, e-mail.
-- **RF001** - Como TO, quero registrar o endereço do paciente, incluindo localização para atendimento domiciliar. Deve incluir: rua ou avenida, número, bairro, cidade, CEP, ponto de referência.
-- **RF002** - Como TO, quero registrar e atualizar a anamnese clínica do paciente com histórico de saúde e condições atuais.
-- **RF003** - Como TO, quero registrar o diagnóstico clínico do paciente, com base em observações ou laudos médicos. Pode ser em formato de texto ou anexo de documento (laudo emitido por médicos).
-- **RF004** - Como TO, quero gerar e editar o Plano de Intervenção Individualizado (PII), com metas, objetivos e estratégias terapêuticas ocupacionais.
-- **RF005** - Como TO, quero anexar documentos (podendo ser atestados, laudos, autorizações) ao prontuário eletrônico do paciente em formato: JPG, PNG ou PDF.
-- **RF006** - Como TO, quero registrar a evolução terapêutica do paciente a cada sessão realizada.
-- **RF007** - Como TO, quero anexar vídeos de avaliação funcional ou motoras ao prontuário, com armazenamento seguro. Em formatos compatíveis como MP4 ou AVI, com limite de até 50MB por vídeo.
-- **RF008** - Como TO, quero visualizar o histórico clínico completo do paciente por meio de um painel (dashboard) com resumos de anamnese, PII, sessões realizadas e documentos anexados.
-- **RF009** - Como TO, quero registrar o documento de alta do paciente, contendo a assinatura do mesmo ou responsável (em caso de pacientes pediátricos), que contém um resumo terapêutico, objetivos alcançados e encerramento do PII. O documento pode ser exportado em formato PDF, com possibilidade de inserção de assinatura digital ou digitalizada.
-- **RF010** - Como TO, quero anexar ou gerar relatórios do prontuário em formato PDF para compartilhar com médicos ou equipes multiprofissionais. Os relatórios são escritos em texto livre, com formato semelhante, contendo alguns dados pessoais do paciente (nome completo, idade, diagnóstico).
-- **RF011** - Como TO, quero registrar os dados do responsável legal do paciente (em caso de menor de idade ou curatela). Deve conter nome completo, CPF, grau de parentesco, contatos.
-- **RF012** - Como terapeuta ocupacional, quero arquivar o cadastro de pacientes que não estejam mais em acompanhamento ativo, seja por abandono, transferência ou alta terapêutica, para manter o sistema organizado sem perder o histórico de atendimentos realizados.
-- **RF013** - Como TO, quero reaver prontuários arquivados, caso o paciente retorne ao acompanhamento.
-- **RF014** - Como TO, quero que todos os prontuários do sistema sejam tratados como confidenciais por padrão, assegurando que apenas profissionais autorizados tenham acesso aos dados clínicos dos pacientes, em conformidade com a ética profissional e a LGPD.
+- [**RF001**] - Como TO, quero cadastrar um novo paciente com informações pessoais básicas, contendo nome, CPF, certidão de nascimento ou casamento, data de nascimento, telefone, e-mail.
+- [**RF002**] - Como TO, quero registrar o endereço do paciente, incluindo localização para atendimento domiciliar. Deve incluir: rua ou avenida, número, bairro, cidade, CEP, ponto de referência.
+- [**RF003**] - Como TO, quero registrar e atualizar a anamnese clínica do paciente com histórico de saúde e condições atuais.
+- [**RF004**] - Como TO, quero registrar o diagnóstico clínico do paciente, com base em observações ou laudos médicos. Pode ser em formato de texto ou anexo de documento (laudo emitido por médicos).
+- [**RF005**] - Como TO, quero gerar e editar o Plano de Intervenção Individualizado (PII), com metas, objetivos e estratégias terapêuticas ocupacionais.
+- [**RF006**] - Como TO, quero anexar documentos (podendo ser atestados, laudos, autorizações) ao prontuário eletrônico do paciente em formato: JPG, PNG ou PDF.
+- [**RF007**] - Como TO, quero registrar a evolução terapêutica do paciente a cada sessão realizada.
+- [**RF008**] - Como TO, quero anexar vídeos de avaliação funcional ou motoras ao prontuário, com armazenamento seguro. Em formatos compatíveis como MP4 ou AVI, com limite de até 50MB por vídeo.
+- [**RF009**] - Como TO, quero visualizar o histórico clínico completo do paciente por meio de um painel (dashboard) com resumos de anamnese, PII, sessões realizadas e documentos anexados.
+- [**RF010**] - Como TO, quero registrar o documento de alta do paciente, contendo a assinatura do mesmo ou responsável (em caso de pacientes pediátricos), que contém um resumo terapêutico, objetivos alcançados e encerramento do PII. O documento pode ser exportado em formato PDF, com possibilidade de inserção de assinatura digital ou digitalizada.
+- [**RF011**] - Como TO, quero anexar ou gerar relatórios do prontuário em formato PDF para compartilhar com médicos ou equipes multiprofissionais. Os relatórios são escritos em texto livre, com formato semelhante, contendo alguns dados pessoais do paciente (nome completo, idade, diagnóstico).
+- [**RF013**] - Como TO, quero registrar os dados do responsável legal do paciente (em caso de menor de idade ou curatela). Deve conter nome completo, CPF, grau de parentesco, contatos.
+- [**RF014**] - Como terapeuta ocupacional, quero arquivar o cadastro de pacientes que não estejam mais em acompanhamento ativo, seja por abandono, transferência ou alta terapêutica, para manter o sistema organizado sem perder o histórico de atendimentos realizados.
+- [**RF015**] - Como TO, quero reaver prontuários arquivados, caso o paciente retorne ao acompanhamento.
+- [**RF016**] - Como TO, quero que todos os prontuários do sistema sejam tratados como confidenciais por padrão, assegurando que apenas profissionais autorizados tenham acesso aos dados clínicos dos pacientes, em conformidade com a ética profissional e a LGPD.
 
 ### Módulo 2: Agendamento e Sessões
+- [**RF017**]: Como TO, eu gostaria de agendar uma nova sessão para um paciente já cadastrado, contendo data, horário e duração, respeitando meus horários de trabalho configurados no sistema.
+- [**RF018**]: Como TO, eu gostaria de poder editar uma sessão agendada, alterando data, horário, duração ou observações clínicas, desde de que a sessão não tenha sido marcada como realizada.
+- [**RF019**]: Como TO, gostaria de adicionar o documento de evolução durante ou após a realização de uma sessão.
+- [**RF020**]: Como TO, quero poder cancelar uma sessão já agendada, informando opcionalmente um motivo, mas mantendo a sessão no histórico do sistema com o status de “cancelada”.
+- [**RF021**]: Como TO, gostaria de reservar tempo adicional antes ou depois de sessões domiciliares para deslocamento, e que esse tempo apareça como bloqueado na agenda.
+- [**RF022**]: Como TO, gostaria de visualizar minhas sessões em um calendário, semanal ou mensal, ou uma lista cronológica.
+- [**RF023**]: Como TO, quero pesquisar sessões por nome do paciente, data, status da sessão (realizada, agendada ou cancelada), tipo (presencial, domiciliar, teleatendimento), ou palavra-chave, para encontrar registros anteriores com maior facilidade.
+- [**RF024**]: Como TO, gostaria de confirmar manualmente a realização da sessão no momento do atendimento, para que então o sistema possa registrar as informações no prontuário.
+[remete ao RNF006]
+- [**RF025**]: Como TO, quero poder informar o tipo de pagamento da sessão.
+- [**RF026**]: Como TO, desejo reagendar uma sessão facilmente, apenas arrastando-a para outro horário ou selecionando uma nova data ou hora.
+- [**RF027**]: Como TO, quero registrar a presença ou ausência do paciente na sessão, com opções como “presente”, “ausente”, “atrasado” ou “cancelado com aviso”.
+- [**RF028**]: Como TO, desejo incluir observações confidenciais visíveis apenas a mim sobre o atendimento, separadas das anotações que entram no prontuário.
+- [**RF029**]: Como TO, desejo duplicar sessões anteriores com base em frequência semanal ou quinzenal para pacientes em manutenção, para facilitar o agendamento de terapias recorrentes.
+- [**RF030**]: Como TO, quero que o sistema permita gerar uma notificação ao paciente em caso de reagendamento ou cancelamento da sessão.
+- [**RF031**]: Como TO, desejo bloquear horários específicos da minha agenda, para que o sistema não permita agendamento de sessões nesse período.
 
 ### Módulo 3: Financeiro e Convênios
+- [**RF031**]
+- [**RF032**]
+- [**RF033**]
+- [**RF034**]
+- [**RF035**]
+- [**RF036**]
+- [**RF037**]
+- [**RF038**]
+- [**RF039**]
+- [**RF040**]
+- [**RF041**]
+- [**RF042**]
+- [**RF043**]
+- [**RF044**]
+- [**RF045**]
 
 ### Módulo 4: Administração e Configurações
+- [**RF046**]: Como administrador, quero criar, editar e excluir perfis de usuários (terapeuta ocupacional ou assistente administrativo), definindo suas permissões de acesso aos módulos do sistema.
+- [**RF047**]: Como administrador, quero configurar os horários de atendimento padrão dos profissionais, para que os agendamentos respeitem as disponibilidades individuais.
+- [**RF048**]: Como administrador, quero definir os tipos de sessão disponíveis (presencial, domiciliar, teleatendimento) e associar valores ou convênios vinculados.
+- [**RF049**]: Como administrador, quero criar, editar e excluir convênios ou planos de saúde aceitos pelo consultório, vinculando cada um aos procedimentos e regras de faturamento.
+- [**RF050**]: Como administrador, quero configurar regras de cobrança e repasse financeiro por profissional, para que o sistema calcule automaticamente os recebimentos de cada TO.
+- [**RF051**]: Como administrador, quero visualizar um painel com indicadores gerenciais como número de pacientes ativos, sessões realizadas no mês, faturamento por convênio, entre outros.
+- [**RF052**]: Como administrador, quero cadastrar diferentes clínicas ou locais de atendimento (multiunidades), para que os dados possam ser filtrados por unidade.
+- [**RF053**]: Como administrador, quero configurar mensagens e lembretes automáticos que serão enviados aos pacientes por e-mail, SMS ou WhatsApp em caso de agendamento, reagendamento ou cancelamento.
+- [**RF054**]: Como administrador, quero definir documentos e anexos obrigatórios para cada prontuário, tais como: anamnese, PII ou termo de consentimento.
+- [**RF055**]: Como administrador, quero configurar alertas automáticos em caso de prontuários incompletos, sessões em atraso ou pagamentos vencidos.
+- [**RF056**]: Como administrador, quero registrar e visualizar um log de atividades do sistema, com data e horário de ações como login, criação ou alteração de registros clínicos ou financeiros.
+- [**RF057**]: Como administrador, quero configurar a marca e identidade visual da clínica (nome, logotipo, cores) para refletir nos relatórios e na interface do sistema.
+- [**RF058**]: Como administrador, quero importar e exportar dados de usuários, pacientes e sessões via planilhas (CSV ou Excel), para facilitar integrações com outros sistemas.
+- [**RF059**]: Como administrador, quero definir o tempo máximo permitido para upload de arquivos (documentos, vídeos), para evitar sobrecarga no servidor.
+- [**RF060**]: Como administrador, quero definir níveis de acesso por seção do sistema (visualizar, editar, excluir), garantindo que apenas usuários autorizados possam modificar dados sensíveis.
+- [**RF061**]: Como administrador, quero cadastrar e configurar templates de relatórios (prontuários, recibos, relatórios clínicos), para padronizar os documentos emitidos.
+
 ---
 
 ## Requisitos Não Funcionais
