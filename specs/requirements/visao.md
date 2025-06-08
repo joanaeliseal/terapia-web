@@ -16,7 +16,7 @@
 
 # Introdução
 
-Agregar valor ao produto e desenvolver formas de diferenciação em relação à concorrência são estratégias amplamente adotadas por empresas de diversos setores com o objetivo de fidelizar seus clientes. Nesse cenário de constantes transformações e novas perspectivas, surge o TerapiaWeb como uma solução para ampliar a eficácia do planejamento e da gestão voltados aos profissionais de Terapia Ocupacional. O grande diferencial deste aplicativo está em sua capacidade de se tornar uma ferramenta estratégica, tanto para profissionais autônomos quanto para empresas da área, uma vez que o Sistema TerapiaWeb nasce com o propósito central de atender às necessidades dos clientes e promover sua satisfação.
+O Documento de Visão do Produto (DVP) é um documento que descreve o produto de software que será desenvolvido. Ele descreve o problema que será resolvido, as principais necessidades dos stakeholders, as principais funcionalidades do sistema, as restrições do projeto, etc.
 
 ## Propósito
 
@@ -33,7 +33,7 @@ Oferecer um sistema completo que facilite o agendamento de consultas, envie lemb
 |CREFITO| Conselho Regional de Fisioterapia e Terapia Ocupacional                                            |
 | LGPD  | Lei Geral de Proteção de Dados               |
 | PII   | Plano de Intervenção Individualizado         |
-| INSS  | EInstituto Nacional do Seguro Social         |
+| INSS  | Instituto Nacional do Seguro Social         |
 |  COPM | Medida Canadense de Desempenho Ocupacional                                            |
 |  MOHO   | Modelo de Ocupação Humana                  |
 
@@ -50,7 +50,7 @@ Oferecer um sistema completo que facilite o agendamento de consultas, envie lemb
 |   Atestado   | É um documento formal emitido por um profissional de saúde que atesta a condição de saúde de um indivíduo.                                                                                  |
 |   Serviço   | Exercício e desempenho de qualquer atividade.                                                                                             |
 |   Paciente   | É a pessoa que necessita de cuidado individualizado, por um período curto, médio ou longo.                                                                                             |
-|   Diagnóstico   | EÉ o processo analítico de que se vale o especialista ao exame de uma doença ou de um quadro clínico, para chegar a uma conclusão.                                                                                             |
+|   Diagnóstico   | É o processo analítico de que se vale o especialista ao exame de uma doença ou de um quadro clínico, para chegar a uma conclusão.                                                                                             |
 |   Teleatendimento   | É a prestação de serviços ou informações por meio de tecnologias de comunicação, geralmente telefones ou internet.                                                                                             |
 |   Equipe multidisciplinar   | Grupo de pessoas com diferentes áreas de conhecimento e especialidades, que trabalham juntas para alcançar um objetivo comum, combinando suas habilidades e perspectivas.                                                                                             |
 |   Materiais terapêuticos   | Ferramentas e procedimentos que auxiliam no processo de reabilitação física, emocional ou psicológica de um paciente.                                                                                             |
