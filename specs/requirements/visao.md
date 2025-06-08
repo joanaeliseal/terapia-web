@@ -1,10 +1,10 @@
 <h1>Visão do Produto</h1>
 
 <h2>TerapiaWeb</h2>
-<h2>TerapiaWeb</h2>
+
 
 <small>Versão 1.0</small>
-<small>Versão 1.0</small>
+
 
 ---
 
