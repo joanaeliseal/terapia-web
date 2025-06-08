@@ -1,7 +1,9 @@
 <h1>Visão do Produto</h1>
 
 <h2>TerapiaWeb</h2>
+<h2>TerapiaWeb</h2>
 
+<small>Versão 1.0</small>
 <small>Versão 1.0</small>
 
 ---
@@ -100,6 +102,7 @@ Segue tabela com os usuários e atores do sistema:
 | ------------------------ | ------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
 | Terapeuta Ocupacional                | Profissional responsável por usar o sistema. | Criar prontuários, registrar laudos.            | Equipe de Desenvolvimento, Gerente de Projeto, Departamento de Atendimento ao Cliente           |
 | Assistente Administrativo (caso exista)  | Profissional responsável por auxiliar nas tarefas administrativas.            | Gerenciar agendamentos, digitalizar documentos. | TO, Equipe de Desenvolvimento, Gerente de Projeto |
+| Assistente Administrativo (caso exista)  | Profissional responsável por auxiliar nas tarefas administrativas.            | Gerenciar agendamentos, digitalizar documentos. | TO, Equipe de Desenvolvimento, Gerente de Projeto |
 | Administrador do Sistema | Profissional responsável por gerenciar e manter o sistema.                                                   | Gerenciar os usuários do sistema, realizar backup dos dados, atualizar o sistema e garantir o seu funcionamento adequado.                                                                                                        | Equipe de Desenvolvimento, Gerente de Projeto                                                   |
 
 ---
@@ -117,8 +120,13 @@ A seguir, são descritos alguns ambientes em que o sistema pode ser utilizado:
 - Formação superior em Terapia Ocupacional.
 - Baixo domínio de sistemas digitais especializados.
 - Experiência com ferramentas básicas como Word e Excel.
+- Formação superior em Terapia Ocupacional.
+- Baixo domínio de sistemas digitais especializados.
+- Experiência com ferramentas básicas como Word e Excel.
 
 ### Riscos Identificados
+- Sem o sistema: perda de dados, falhas de agendamento, sanções por não conformidade com a LGPD.
+- Com o sistema (mal implementado): baixa adesão por dificuldade de uso, vazamento de dados.
 - Sem o sistema: perda de dados, falhas de agendamento, sanções por não conformidade com a LGPD.
 - Com o sistema (mal implementado): baixa adesão por dificuldade de uso, vazamento de dados.
 
@@ -127,9 +135,14 @@ A seguir, são descritos alguns ambientes em que o sistema pode ser utilizado:
 - Interface simples e intuitiva.
 - Ausência de falhas críticas.
 - Atualizações frequentes e suporte técnico.
+- Alta disponibilidade (24/7).
+- Interface simples e intuitiva.
+- Ausência de falhas críticas.
+- Atualizações frequentes e suporte técnico.
 
 ### O sistema TerapiaWeb será utilizado principalmente em:
 - Consultórios particulares: Equipados com um notebook ou desktop com acesso à internet.
+- Ambientes domiciliares: Utilização do sistema em notebooks ou tablets, com ou sem acesso à internet (funcionalidade offline parcial).
 - Ambientes domiciliares: Utilização do sistema em notebooks ou tablets, com ou sem acesso à internet (funcionalidade offline parcial).
 - Infraestrutura mínima necessária: Navegador web atualizado (Google Chrome, Firefox, Edge ou Safari), conexão estável com a internet para uso completo das funcionalidades.
 - Condições de uso: Ambientes silenciosos, com tempo reservado para preenchimento de dados clínicos e administrativos, geralmente durante ou no término dos atendimentos ou ao final do expediente.
@@ -171,6 +184,7 @@ O uso será feito por profissionais com domínio básico de informática, sem ne
 ### Diagrama de Contexto:
 
 ![Diagrama de contexto do sistema TerapiaWeb](../../assets/images/architecture.jpg)
+
 
 # Visão geral do produto
 
