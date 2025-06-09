@@ -9,24 +9,24 @@
 A organização do projeto segue a estrutura proposta pela disciplina, com pastas voltadas à documentação, análise e modelagem:
 
 ```
-/                    # Raiz do projeto
-├── .git/            # Criado automaticamente pelo Git
-├── specs/           # Especificações do projeto
+/                                   # Raiz do projeto
+├── .git/                           # Criado automaticamente pelo Git
+├── specs/                          # Especificações do projeto
 │   └── requirements/
-│       ├── entrevista.pdf        # Formulário de entrevista com o cliente
-│       ├── visao.md              # Documento de Visão do Sistema
-│       └── requisitos.md         # Documento de Requisitos (Funcionais e Não Funcionais)
+│       ├── entrevista.pdf          # Formulário de entrevista com o cliente
+│       ├── visao.md                # Documento de Visão do Sistema
+│       └── requisitos.md           # Documento de Requisitos (Funcionais e Não Funcionais)
 │
-├── ui/              # Interfaces visuais de baixa fidelidade (protótipos)
-│   ├── 01-dashboard.pdf
-│   └── 02-cadastro-usuario.pdf
+├── ui/                             # Interfaces visuais de baixa fidelidade (protótipos)
+│   ├── 01-dashboard.pdf            # exemplo 1
+│   └── 02-cadastro-usuario.pdf     # exemplo 2
 │
-├── design/          # Artefatos de análise e projeto de sistemas
-│   ├── ui/                  # Interface visual de alta fidelidade (ex: Figma)
-│   ├── logic-vision/        # Visão lógica do sistema
-│   └── use-case-vision/     # Visão de casos de uso
+├── design/                         # Artefatos de análise e projeto de sistemas
+│   ├── ui/                         # Interface visual de alta fidelidade (ex: Figma)
+│   ├── logic-vision/               # Visão lógica do sistema
+│   └── use-case-vision/            # Visão de casos de uso
 │
-└── src/             # Código-fonte (não será desenvolvido nesta fase)
+└── src/                            # Código-fonte (não será desenvolvido nesta fase)
 ```
 
 ---
