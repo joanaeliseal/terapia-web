@@ -158,11 +158,11 @@ Os requisitos não-funcionais são descritos a seguir.
 - [**RNF003**]: O sistema deve permitir a exportação completa dos prontuários dos pacientes em formato PDF, contendo dados clínicos e documentos anexados, com tempo de geração inferior a 5 segundos, desde que não ultrapasse 50MB. Para prontuários extensos, o sistema deve permitir a exportação em partes ou por seções (anamnese, PII, evolução, documentos).
 - [**RNF006**]: O sistema deve registrar automaticamente a sessão, após realizada, no prontuário do paciente, incluindo horário, duração, e notas do terapeuta.
 - [**RNF011**]: O sistema deve estar disponível 24 horas por dia, 7 dias por semana, 365 dias por ano. 
-- [**RNF014**]: O sistema deve suportar conexões simultâneas de múltiplos usuários, sem degradação significativa no desempenho ou na disponibilidade. 
+- [**RNF014**]: O sistema deve suportar conexões simultâneas de múltiplos usuários, sem degradação significativa no desempenho ou na disponibilidade. O sistema deve ser capaz de suportar, no mínimo, 50 usuários simultâneos acessando funcionalidades como login, visualização de dados e geração de relatórios, sem tempo de resposta superior a 2 segundos para cada requisição. 
 - [**RNF019**]: O painel administrativo deve ter tempo de resposta inferior a 2 segundos para cada operação, mesmo com base de dados contendo até 10 mil registros ativos.
 
 ## Suportabilidade
-- [**RNF013**]: O sistema deve ser compatível com múltiplos navegadores e sistemas operacionais, garantindo o acesso irrestrito por diferentes tipos de usuários. 
+- [**RNF013**]: O sistema deve ser desenvolvido de forma que possa ser executado nos três principais navegadores da web: Google Chrome, Mozilla Firefox e Microsoft Edge através de um computador com sistema operacional Windows, Linux ou Mac OS, bem como tablets e smartphones com sistema operacional Android ou iOS.  
 - [**RNF015**]: O sistema deve ser desenvolvido de forma que possa ser executado em qualquer dispositivo com conexão offline, e com posterior sincronização dos dados com o servidor.
 - [**RNF018**]: O sistema deve permitir login via autenticação em dois fatores (2FA) para usuários com acesso administrativo.
 
