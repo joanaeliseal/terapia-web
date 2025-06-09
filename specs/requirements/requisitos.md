@@ -100,21 +100,21 @@ Os requisitos funcionais são descritos a seguir.
 - [**RF031**]: Como TO, desejo bloquear horários específicos da minha agenda, para que o sistema não permita agendamento de sessões nesse período.
 
 ### Módulo 3: Financeiro e Convênios
-- [**RF031**]:
-- [**RF032**]: 
-- [**RF033**]: 
-- [**RF034**]: 
-- [**RF035**]: 
-- [**RF036**]: 
-- [**RF037**]: 
-- [**RF038**]: 
-- [**RF039**]: 
-- [**RF040**]: 
-- [**RF041**]: 
-- [**RF042**]: 
-- [**RF043**]: 
-- [**RF044**]: 
-- [**RF045**]: 
+- [**RF031**]: Como TO, eu gostaria de ter diferentes opções de pagamento para as consultas, como Pix, cartão de crédito, cartão de débito e boleto.
+- [**RF032**]: Como um paciente, eu gostaria de receber notificações automáticas sobre a confirmação e o pagamento das minhas consultas, para garantir que estou em dia com os compromissos.
+- [**RF033**]: Como TO, eu gostaria de ter acesso a relatórios detalhados sobre os pacientes e suas respectivas formas de pagamento, para que eu possa acompanhar o status financeiro e organizar melhor a gestão dos atendimentos.
+- [**RF034**]: Como TO, eu gostaria de ter acesso a informações sobre quais pacientes estão em dia com os pagamentos das consultas, para facilitar o controle financeiro e o acompanhamento dos recebimentos.
+- [**RF035**]: Como TO, eu gostaria de ter acesso a relatórios que mostrem qual mês ou período foi o mais rentável, para que eu possa analisar o desempenho financeiro e planejar melhor minhas estratégias.
+- [**RF036**]: Como TO, eu gostaria de receber notificações sobre pagamentos pendentes ou vencidos, para que eu possa tomar as providências necessárias e manter o controle financeiro em dia.
+- [**RF037**]: Como TO, eu gostaria de ter acesso a relatórios detalhados sobre os pacientes e seus respectivos convênios, para facilitar a gestão administrativa e o controle dos atendimentos vinculados a cada plano de saúde. 
+- [**RF038**]: Como TO, eu gostaria de ter acesso a relatórios relacionados ao mês e aos convênios, para que eu possa analisar o desempenho financeiro e operacional de cada período e plano de saúde.
+- [**RF039**]: Como TO, eu gostaria de ter acesso a relatórios comparativos entre as consultas pagas por convênios e as particulares, para que eu possa avaliar a distribuição dos atendimentos e otimizar a gestão financeira.  
+- [**RF040**]: Como TO, eu gostaria de ter acesso a relatórios que indiquem quais procedimentos são mais comuns, para que eu possa compreender melhor a demanda e planejar os recursos da clínica de forma mais eficiente. 
+- [**RF041**]: Como TO, eu gostaria de acompanhar em tempo real o fluxo de caixa da clínica, com relatórios de receitas e despesas, para garantir uma gestão financeira eficiente e tomada de decisões mais assertivas. 
+- [**RF042**]: Como TO, eu gostaria de poder filtrar os relatórios financeiros por convênio, paciente ou período, para gerar análises mais específicas e facilitar a tomada de decisões administrativas. 
+- [**RF043**]: Como TO, eu gostaria de visualizar gráficos financeiros que representem a evolução das receitas ao longo dos meses, para facilitar o acompanhamento do crescimento da clínica e apoiar o planejamento estratégico. 
+- [**RF044**]: Como TO, eu gostaria de emitir notas fiscais compatíveis com os requisitos da Receita Federal, para que  eu possa cumprir com minhas obrigações fiscais e manter a regularidade da clínica perante os órgãos governamentais. 
+- [**RF045**]: Como um desenvolvedor, eu gostaria de ter acesso a relatórios com o total de clientes (profissionais TO) e empresas cadastrados, para facilitar o monitoramento do sistema e apoiar a tomada de decisões técnicas e estratégicas.
 
 ### Módulo 4: Administração e Configurações
 - [**RF046**]: Como administrador, quero criar, editar e excluir perfis de usuários (terapeuta ocupacional ou assistente administrativo), definindo suas permissões de acesso aos módulos do sistema.
