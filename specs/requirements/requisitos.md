@@ -100,21 +100,21 @@ Os requisitos funcionais são descritos a seguir.
 - [**RF031**]: Como TO, desejo bloquear horários específicos da minha agenda, para que o sistema não permita agendamento de sessões nesse período.
 
 ### Módulo 3: Financeiro e Convênios
-- [**RF031**]
-- [**RF032**]
-- [**RF033**]
-- [**RF034**]
-- [**RF035**]
-- [**RF036**]
-- [**RF037**]
-- [**RF038**]
-- [**RF039**]
-- [**RF040**]
-- [**RF041**]
-- [**RF042**]
-- [**RF043**]
-- [**RF044**]
-- [**RF045**]
+- [**RF031**]:
+- [**RF032**]: 
+- [**RF033**]: 
+- [**RF034**]: 
+- [**RF035**]: 
+- [**RF036**]: 
+- [**RF037**]: 
+- [**RF038**]: 
+- [**RF039**]: 
+- [**RF040**]: 
+- [**RF041**]: 
+- [**RF042**]: 
+- [**RF043**]: 
+- [**RF044**]: 
+- [**RF045**]: 
 
 ### Módulo 4: Administração e Configurações
 - [**RF046**]: Como administrador, quero criar, editar e excluir perfis de usuários (terapeuta ocupacional ou assistente administrativo), definindo suas permissões de acesso aos módulos do sistema.
@@ -140,3 +140,35 @@ Os requisitos funcionais são descritos a seguir.
 
 Os requisitos não-funcionais são descritos a seguir.
 
+## Usabilidade
+- [**RNF005**]: O sistema deve emitir alertas visuais ao terapeuta ao tentar finalizar ou arquivar um prontuário sem que documentos obrigatórios estejam anexados. São considerados obrigatórios: anamnese, Plano de Intervenção Individualizado (PII), termo de consentimento e evolução clínica.
+- [**RNF020**]: Todas as alterações feitas nas configurações do sistema devem ser salvas automaticamente ou com confirmação explícita do usuário, com aviso visual de sucesso.
+- [**RNF007**]: O sistema deve emitir alerta minutos antes de começar a sessão.
+- [**RNF008**]: O sistema deve emitir alerta caso haja conflito de horários.
+- [**RNF009**]:O sistema deve emitir alerta caso a sessão ultrapasse o tempo padrão.
+
+## Confiabilidade
+- [**RNF004**]: O sistema deve manter um histórico de versões do PII, com possibilidade de restaurar versões anteriores e substituir a atual.
+- [**RNF010**]: O sistema deve manter agendamentos salvos mesmo com quedas de conexão.
+- [**RNF012**]: O sistema deve permitir a realização de backups automáticos e periódicos, assegurando a integridade e a recuperação dos dados em caso de falhas.
+- [**RNF016**]: O sistema deve manter um log de auditoria imutável e seguro com todas as ações realizadas pelos usuários, incluindo horário e IP de acesso.
+- [**RNF017**]: O sistema deve permitir backup automático da configuração e das permissões de usuários semanalmente, com recuperação simples.
+
+## Desempenho
+- [**RNF003**]: O sistema deve permitir a exportação completa dos prontuários dos pacientes em formato PDF, contendo dados clínicos e documentos anexados, com tempo de geração inferior a 5 segundos, desde que não ultrapasse 50MB. Para prontuários extensos, o sistema deve permitir a exportação em partes ou por seções (anamnese, PII, evolução, documentos).
+- [**RNF006**]: O sistema deve registrar automaticamente a sessão, após realizada, no prontuário do paciente, incluindo horário, duração, e notas do terapeuta.
+- [**RNF011**]: O sistema deve estar disponível 24 horas por dia, 7 dias por semana, 365 dias por ano. 
+- [**RNF014**]: O sistema deve suportar conexões simultâneas de múltiplos usuários, sem degradação significativa no desempenho ou na disponibilidade. 
+- [**RNF019**]: O painel administrativo deve ter tempo de resposta inferior a 2 segundos para cada operação, mesmo com base de dados contendo até 10 mil registros ativos.
+
+## Suportabilidade
+- [**RNF013**]: O sistema deve ser compatível com múltiplos navegadores e sistemas operacionais, garantindo o acesso irrestrito por diferentes tipos de usuários. 
+- [**RNF015**]: O sistema deve ser desenvolvido de forma que possa ser executado em qualquer dispositivo com conexão offline, e com posterior sincronização dos dados com o servidor.
+- [**RNF018**]: O sistema deve permitir login via autenticação em dois fatores (2FA) para usuários com acesso administrativo.
+
+## Requisito de Design / Implementação / Interface / Físico
+- [**RNF001**]: O sistema deve criptografar todos os dados sensíveis armazenados nos prontuários dos pacientes. Os dados sensíveis incluem: nome completo, CPF, endereço, anamnese, diagnóstico, evolução, vídeos e documentos clínicos.
+- [**RNF002**]: O sistema deve permitir acesso ao prontuário apenas por usuários autenticados com permissão adequada (nesse caso, o terapeuta ocupacional ou assistente administrativo). (permissões podem ser configuradas no módulo de administração - fazer referência a RF do módulo 4 que fala sobre isso).
+
+
+Criado em Junho de 2025 por _Joana Elise, Jonata Barbosa, Matheus Barbosa e Leidiana Nascimento_.
