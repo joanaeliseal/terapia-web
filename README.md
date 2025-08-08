@@ -12,6 +12,12 @@ A organização do projeto segue a estrutura proposta pela disciplina, com pasta
 /                                   # Raiz do projeto
 ├── .git/                           # Criado automaticamente pelo Git
 ├── specs/                          # Especificações do projeto
+│   └── casos-de-uso/
+│       ├── analise_casos_de_uso.png          
+│       ├── especificacao_Administracao_caso_de_uso.md                
+│       └── especificacao_Financeiro_caso_de_uso.md
+│       └── especificacao_Paciente_caso_de_uso.md        
+│       └── especificacao_Sessao_caso_de_uso.md          
 │   └── requirements/
 │       ├── entrevista.pdf          # Formulário de entrevista com o cliente
 │       ├── visao.md                # Documento de Visão do Sistema
