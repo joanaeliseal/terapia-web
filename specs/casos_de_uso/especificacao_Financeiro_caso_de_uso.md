@@ -464,4 +464,25 @@ Administrador
 
 **A1 - Buscar todas as informações do relatório de cliente sem aplicar filtros**  
 - O ator não preenche nenhum filtro e clica em "Buscar".  
-- O sistema exibe todos
+- O sistema exibe todos os relatórios dos clientes dos períodos disponíveis, organizados por ordem cronológica decrescente.
+
+### Fluxo de Exceção
+MSG01 - Nenhum resultado encontrado
+O sistema exibe a mensagem MSG01.
+
+## Caso de uso UC35 - Emitir Nota Fiscal
+
+---
+**Objetivo**  
+Permitir a emissão de nota fiscal.
+
+**Requisitos**  
+RF044
+
+**Atores**  
+SEFAZ
+--- 
+
+### Fluxo Principal
+
+1. O ator realiza a emissão da nota fiscal.
