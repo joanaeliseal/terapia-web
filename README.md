@@ -17,7 +17,10 @@ A organização do projeto segue a estrutura proposta pela disciplina, com pasta
 │       ├── especificacao_Administracao_caso_de_uso.md                
 │       └── especificacao_Financeiro_caso_de_uso.md
 │       └── especificacao_Paciente_caso_de_uso.md        
-│       └── especificacao_Sessao_caso_de_uso.md          
+│       └── especificacao_Sessao_caso_de_uso.md    
+│   └── logica/                     
+│       └── analise_logica_diagrama_classes.md  # Diagrama de Classes
+│       └── arquivos com diagramas de atividades dos métodos das classes 
 │   └── requirements/
 │       ├── entrevista.pdf          # Formulário de entrevista com o cliente
 │       ├── visao.md                # Documento de Visão do Sistema
@@ -65,10 +68,31 @@ Os documentos obrigatórios estão sendo produzidos em formato `.md` ou `.pdf` e
 - **Artefatos de análise** – diagramas e descrições lógicas e de casos de uso
 
 ---
+## 📊 Artefatos de Análise e Modelagem
+
+Durante a disciplina foram produzidos diversos diagramas para apoiar a especificação do sistema:
+
+- **Diagramas de Casos de Uso** – visão geral dos módulos.
+- **Especificação detalhada de Casos de Uso** – descrição textual no formato padrão, por módulo.
+- **Diagrama de Classes** – visão estrutural do sistema.
+- **Diagramas de Atividades** – fluxos detalhados de cada método das classes.
+- **Relacionamento entre Módulos** – integração entre classes e módulos.
+---
+
+## 🛠 Diagramas de Atividades
+
+Cada método das classes principais foi detalhado por meio de um **Diagrama de Atividades UML**.  
+O objetivo é facilitar a compreensão do fluxo de execução e das decisões envolvidas, antes da implementação.
+
+**Padrões adotados:**
+- Símbolos de decisão com losango e fundo branco.
+- Representação de retornos como nós de junção (merge).
+- Atividades com cantos arredondados por módulo.
+---
 
 ## 👩‍💻 Equipe
 
-Projeto desenvolvido por alunos do IFPB – Campus João Pessoa:
+Projeto desenvolvido por estudantes do IFPB – Campus João Pessoa:
 
 - [Joana Elise](https://github.com/joanaeliseal)  
 - [Jonata Barbosa](https://github.com/iamjonn)
