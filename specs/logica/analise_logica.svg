@@ -1,0 +1,605 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="1850px" preserveAspectRatio="none" style="width:2663px;height:1850px;background:#FFFFFF;" version="1.1" viewBox="0 0 2663 1850" width="2663px" zoomAndPan="magnify"><defs/><g><!--MD5=[af111e31ae92a2490347ab8fc65c5fc7]
+class UsuarioSistema--><g id="elem_UsuarioSistema"><rect codeLine="5" fill="#F1F1F1" height="145.7813" id="UsuarioSistema" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="467" x="585" y="7"/><ellipse cx="760.75" cy="23" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M763.7188,28.6406 Q763.1406,28.9375 762.5,29.0781 Q761.8594,29.2344 761.1563,29.2344 Q758.6563,29.2344 757.3281,27.5938 Q756.0156,25.9375 756.0156,22.8125 Q756.0156,19.6875 757.3281,18.0313 Q758.6563,16.375 761.1563,16.375 Q761.8594,16.375 762.5,16.5313 Q763.1563,16.6875 763.7188,16.9844 L763.7188,19.7031 Q763.0938,19.125 762.5,18.8594 Q761.9063,18.5781 761.2813,18.5781 Q759.9375,18.5781 759.25,19.6563 Q758.5625,20.7188 758.5625,22.8125 Q758.5625,24.9063 759.25,25.9844 Q759.9375,27.0469 761.2813,27.0469 Q761.9063,27.0469 762.5,26.7813 Q763.0938,26.5 763.7188,25.9219 L763.7188,28.6406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="107" x="781.25" y="27.8467">UsuarioSistema</text><line style="stroke:#181818;stroke-width:0.5;" x1="586" x2="1051" y1="39" y2="39"/><text fill="#8B4513" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="114" x="591" y="55.9951">- nome_user: str</text><text fill="#8B4513" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="117" x="591" y="72.292">- senha_user: str</text><text fill="#8B4513" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="107" x="591" y="88.5889">- status_log: str</text><line style="stroke:#181818;stroke-width:0.5;" x1="586" x2="1051" y1="95.8906" y2="95.8906"/><text fill="#00008B" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="447" x="591" y="112.8857">+ incluir(nome_user: str, senha_user, str, status_log: str) -&gt; bool</text><text fill="#00008B" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="166" x="591" y="129.1826">+ registrar_log() -&gt; bool</text><text fill="#00008B" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="161" x="591" y="145.4795">+ verificar_log() -&gt; bool</text></g><!--MD5=[f301eebb69dfe6249e5e98db41ab5a68]
+class UsuarioComum--><g id="elem_UsuarioComum"><rect codeLine="14" fill="#F1F1F1" height="210.9688" id="UsuarioComum" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="381" x="1056" y="245.5"/><ellipse cx="1189.25" cy="261.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M1192.2188,267.1406 Q1191.6406,267.4375 1191,267.5781 Q1190.3594,267.7344 1189.6563,267.7344 Q1187.1563,267.7344 1185.8281,266.0938 Q1184.5156,264.4375 1184.5156,261.3125 Q1184.5156,258.1875 1185.8281,256.5313 Q1187.1563,254.875 1189.6563,254.875 Q1190.3594,254.875 1191,255.0313 Q1191.6563,255.1875 1192.2188,255.4844 L1192.2188,258.2031 Q1191.5938,257.625 1191,257.3594 Q1190.4063,257.0781 1189.7813,257.0781 Q1188.4375,257.0781 1187.75,258.1563 Q1187.0625,259.2188 1187.0625,261.3125 Q1187.0625,263.4063 1187.75,264.4844 Q1188.4375,265.5469 1189.7813,265.5469 Q1190.4063,265.5469 1191,265.2813 Q1191.5938,265 1192.2188,264.4219 L1192.2188,267.1406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="106" x="1209.75" y="266.3467">UsuarioComum</text><line style="stroke:#181818;stroke-width:0.5;" x1="1057" x2="1436" y1="277.5" y2="277.5"/><text fill="#8B4513" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="103" x="1062" y="294.4951">- endereco: str</text><text fill="#8B4513" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="57" x="1062" y="310.792">- cpf: str</text><text fill="#8B4513" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="72" x="1062" y="327.0889">- email: str</text><text fill="#8B4513" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="93" x="1062" y="343.3857">- telefone: str</text><line style="stroke:#181818;stroke-width:0.5;" x1="1057" x2="1436" y1="350.6875" y2="350.6875"/><text fill="#00008B" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="236" x="1062" y="367.6826">+ alterar(usuario: Usuario) -&gt; bool</text><text fill="#00008B" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="275" x="1062" y="383.9795">+ buscar(descricao: str): List&lt;Usuario&gt;</text><text fill="#00008B" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="237" x="1062" y="400.2764">+ excluir(usuario: Usuario) -&gt; bool</text><text fill="#00008B" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="247" x="1062" y="416.5732">+ exibir(usuario: Usuario)-&gt; Usuario</text><text fill="#00008B" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="293" x="1062" y="432.8701">+ incluir(usuario_sistema: UsuarioSistema,</text><text fill="#00008B" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="369" x="1062" y="449.167">endereco: str, cpf: str, email: str, telefone: str)-&gt; bool</text></g><!--MD5=[fdcda49d453d44c676d62f3f6af62207]
+class Administrador--><g id="elem_Administrador"><rect codeLine="28" fill="#F1F1F1" height="276.1563" id="Administrador" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="598" x="92.5" y="213"/><ellipse cx="339.75" cy="229" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M342.7188,234.6406 Q342.1406,234.9375 341.5,235.0781 Q340.8594,235.2344 340.1563,235.2344 Q337.6563,235.2344 336.3281,233.5938 Q335.0156,231.9375 335.0156,228.8125 Q335.0156,225.6875 336.3281,224.0313 Q337.6563,222.375 340.1563,222.375 Q340.8594,222.375 341.5,222.5313 Q342.1563,222.6875 342.7188,222.9844 L342.7188,225.7031 Q342.0938,225.125 341.5,224.8594 Q340.9063,224.5781 340.2813,224.5781 Q338.9375,224.5781 338.25,225.6563 Q337.5625,226.7188 337.5625,228.8125 Q337.5625,230.9063 338.25,231.9844 Q338.9375,233.0469 340.2813,233.0469 Q340.9063,233.0469 341.5,232.7813 Q342.0938,232.5 342.7188,231.9219 L342.7188,234.6406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="95" x="360.25" y="233.8467">Administrador</text><line style="stroke:#181818;stroke-width:0.5;" x1="93.5" x2="689.5" y1="245" y2="245"/><text fill="#8B4513" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="72" x="98.5" y="261.9951">- email: str</text><line style="stroke:#181818;stroke-width:0.5;" x1="93.5" x2="689.5" y1="269.2969" y2="269.2969"/><text fill="#00008B" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="463" x="98.5" y="286.292">+ configurarHorarios(terapeuta: Terapeuta, horarios: List&lt;Horario&gt;</text><text fill="#00008B" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="241" x="98.5" y="302.5889">diasSemana: List&lt;String&gt;) -&gt; Bool</text><text fill="#00008B" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="380" x="98.5" y="318.8857">+ definirTiposSessao(tipoSessao: TipoSessao) -&gt; Bool</text><text fill="#00008B" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="537" x="98.5" y="335.1826">+ configurarRegrasCobranca(terapeuta: Terapeuta, percentualRepasse: Float</text><text fill="#00008B" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="170" x="98.5" y="351.4795">valorBase: Float) -&gt; Bool</text><text fill="#00008B" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="586" x="98.5" y="367.7764">+ configurarNotificacoes(tipo: String, mensagem: String, gatilho: TipoGatilho) -&gt; Bool</text><text fill="#00008B" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="507" x="98.5" y="384.0732">+ definirDocumentos(documento: Documento, obrigatorio: Bool) -&gt; Bool</text><text fill="#00008B" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="366" x="98.5" y="400.3701">+ registrarLog(acao: String, usuario: Usuario) -&gt; Bool</text><text fill="#00008B" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="408" x="98.5" y="416.667">+ definirTamanhoUpload(tamanhoMaximo: Integer) -&gt; Bool</text><text fill="#00008B" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="351" x="98.5" y="432.9639">+ gerenciarTemplates(template: Template) -&gt;Bool</text><text fill="#00008B" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="287" x="98.5" y="449.2607">+ definirAcesso(usuario: Usuario) -&gt; Bool</text><text fill="#00008B" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="463" x="98.5" y="465.5576">+ visualizarLog(filtroData: Date, filtroUsuario: Usuario) -&gt; List&lt;Log&gt;</text><text fill="#00008B" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="319" x="98.5" y="481.8545">+ visualizarNotificacoes() -&gt; List&lt;Notificacao&gt;</text></g><!--MD5=[255d96243424e3ce182d770f64197fb5]
+class Terapeuta--><g id="elem_Terapeuta"><rect codeLine="46" fill="#F1F1F1" height="80.5938" id="Terapeuta" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="432" x="1828.5" y="638.5"/><ellipse cx="2004.75" cy="654.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M2007.7188,660.1406 Q2007.1406,660.4375 2006.5,660.5781 Q2005.8594,660.7344 2005.1563,660.7344 Q2002.6563,660.7344 2001.3281,659.0938 Q2000.0156,657.4375 2000.0156,654.3125 Q2000.0156,651.1875 2001.3281,649.5313 Q2002.6563,647.875 2005.1563,647.875 Q2005.8594,647.875 2006.5,648.0313 Q2007.1563,648.1875 2007.7188,648.4844 L2007.7188,651.2031 Q2007.0938,650.625 2006.5,650.3594 Q2005.9063,650.0781 2005.2813,650.0781 Q2003.9375,650.0781 2003.25,651.1563 Q2002.5625,652.2188 2002.5625,654.3125 Q2002.5625,656.4063 2003.25,657.4844 Q2003.9375,658.5469 2005.2813,658.5469 Q2005.9063,658.5469 2006.5,658.2813 Q2007.0938,658 2007.7188,657.4219 L2007.7188,660.1406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="71" x="2025.25" y="659.3467">Terapeuta</text><line style="stroke:#181818;stroke-width:0.5;" x1="1829.5" x2="2259.5" y1="670.5" y2="670.5"/><text fill="#8B4513" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="79" x="1834.5" y="687.4951">- crefito: str</text><line style="stroke:#181818;stroke-width:0.5;" x1="1829.5" x2="2259.5" y1="694.7969" y2="694.7969"/><text fill="#00008B" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="420" x="1834.5" y="711.792">+ incluir(usuario_comum: UsuarioComum, crefito: str)-&gt; bool</text></g><!--MD5=[e05050be7acc16739bdcd7800b5bc2a4]
+class Assistente--><g id="elem_Assistente"><rect codeLine="51" fill="#F1F1F1" height="96.8906" id="Assistente" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="478" x="634.5" y="630.5"/><ellipse cx="832.75" cy="646.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M835.7188,652.1406 Q835.1406,652.4375 834.5,652.5781 Q833.8594,652.7344 833.1563,652.7344 Q830.6563,652.7344 829.3281,651.0938 Q828.0156,649.4375 828.0156,646.3125 Q828.0156,643.1875 829.3281,641.5313 Q830.6563,639.875 833.1563,639.875 Q833.8594,639.875 834.5,640.0313 Q835.1563,640.1875 835.7188,640.4844 L835.7188,643.2031 Q835.0938,642.625 834.5,642.3594 Q833.9063,642.0781 833.2813,642.0781 Q831.9375,642.0781 831.25,643.1563 Q830.5625,644.2188 830.5625,646.3125 Q830.5625,648.4063 831.25,649.4844 Q831.9375,650.5469 833.2813,650.5469 Q833.9063,650.5469 834.5,650.2813 Q835.0938,650 835.7188,649.4219 L835.7188,652.1406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="73" x="853.25" y="651.3467">Assistente</text><line style="stroke:#181818;stroke-width:0.5;" x1="635.5" x2="1111.5" y1="662.5" y2="662.5"/><text fill="#8B4513" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="129" x="640.5" y="679.4951">- nome_clinica: str,</text><text fill="#8B4513" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="104" x="640.5" y="695.792">- clinica: Clinica</text><line style="stroke:#181818;stroke-width:0.5;" x1="635.5" x2="1111.5" y1="703.0938" y2="703.0938"/><text fill="#00008B" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="466" x="640.5" y="720.0889">+ incluir(usuario_comum: UsuarioComum, nome_clinica: str)-&gt; bool</text></g><!--MD5=[e58b328d98718587d2cf25b4c2010115]
+class Paciente--><g id="elem_Paciente"><rect codeLine="57" fill="#F1F1F1" height="259.8594" id="Paciente" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="638" x="1147.5" y="549"/><ellipse cx="1432.25" cy="565" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M1435.2188,570.6406 Q1434.6406,570.9375 1434,571.0781 Q1433.3594,571.2344 1432.6563,571.2344 Q1430.1563,571.2344 1428.8281,569.5938 Q1427.5156,567.9375 1427.5156,564.8125 Q1427.5156,561.6875 1428.8281,560.0313 Q1430.1563,558.375 1432.6563,558.375 Q1433.3594,558.375 1434,558.5313 Q1434.6563,558.6875 1435.2188,558.9844 L1435.2188,561.7031 Q1434.5938,561.125 1434,560.8594 Q1433.4063,560.5781 1432.7813,560.5781 Q1431.4375,560.5781 1430.75,561.6563 Q1430.0625,562.7188 1430.0625,564.8125 Q1430.0625,566.9063 1430.75,567.9844 Q1431.4375,569.0469 1432.7813,569.0469 Q1433.4063,569.0469 1434,568.7813 Q1434.5938,568.5 1435.2188,567.9219 L1435.2188,570.6406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="60" x="1452.75" y="569.8467">Paciente</text><line style="stroke:#181818;stroke-width:0.5;" x1="1148.5" x2="1784.5" y1="581" y2="581"/><text fill="#8B4513" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="143" x="1153.5" y="597.9951">- nome_paciente: str</text><text fill="#8B4513" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="103" x="1153.5" y="614.292">- endereco: str</text><text fill="#8B4513" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="72" x="1153.5" y="630.5889">- email: str</text><text fill="#8B4513" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="57" x="1153.5" y="646.8857">- cpf: str</text><text fill="#8B4513" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="93" x="1153.5" y="663.1826">- telefone: str</text><text fill="#8B4513" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="148" x="1153.5" y="679.4795">- cpf_responsavel: str</text><text fill="#8B4513" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="167" x="1153.5" y="695.7764">- nome_responsavel: str</text><line style="stroke:#181818;stroke-width:0.5;" x1="1148.5" x2="1784.5" y1="703.0781" y2="703.0781"/><text fill="#00008B" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="249" x="1153.5" y="720.0732">+ alterar(paciente: Paciente)-&gt; bool</text><text fill="#00008B" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="295" x="1153.5" y="736.3701">+ buscar(descricao: str)-&gt; List&lt;Paciente&gt;</text><text fill="#00008B" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="254" x="1153.5" y="752.667">+ excluir(paciente: Paciente) -&gt; bool</text><text fill="#00008B" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="272" x="1153.5" y="768.9639">+ exibir(paciente: Paciente)-&gt; Paciente</text><text fill="#00008B" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="368" x="1153.5" y="785.2607">+ incluir(nome_paciente: str, endereco: str,email: str,</text><text fill="#00008B" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="626" x="1153.5" y="801.5576">cpf_responsavel:cpf: str, telefone: str, cpf_responsavel: str, nome_responsavel: str)-&gt; bool</text></g><!--MD5=[921037a8d7c2767f2005d4b2df978c94]
+class Clinica--><g id="elem_Clinica"><rect codeLine="76" fill="#F1F1F1" height="178.375" id="Clinica" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="295" x="726" y="262"/><ellipse cx="847.25" cy="278" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M850.2188,283.6406 Q849.6406,283.9375 849,284.0781 Q848.3594,284.2344 847.6563,284.2344 Q845.1563,284.2344 843.8281,282.5938 Q842.5156,280.9375 842.5156,277.8125 Q842.5156,274.6875 843.8281,273.0313 Q845.1563,271.375 847.6563,271.375 Q848.3594,271.375 849,271.5313 Q849.6563,271.6875 850.2188,271.9844 L850.2188,274.7031 Q849.5938,274.125 849,273.8594 Q848.4063,273.5781 847.7813,273.5781 Q846.4375,273.5781 845.75,274.6563 Q845.0625,275.7188 845.0625,277.8125 Q845.0625,279.9063 845.75,280.9844 Q846.4375,282.0469 847.7813,282.0469 Q848.4063,282.0469 849,281.7813 Q849.5938,281.5 850.2188,280.9219 L850.2188,283.6406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="44" x="867.75" y="282.8467">Clinica</text><line style="stroke:#181818;stroke-width:0.5;" x1="727" x2="1020" y1="294" y2="294"/><text fill="#8B4513" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="125" x="732" y="310.9951">- nome_clinica: str</text><text fill="#8B4513" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="103" x="732" y="327.292">- endereco: str</text><text fill="#8B4513" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="72" x="732" y="343.5889">- email: str</text><text fill="#8B4513" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="65" x="732" y="359.8857">- cnpj: str</text><text fill="#8B4513" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="93" x="732" y="376.1826">- telefone: str</text><line style="stroke:#181818;stroke-width:0.5;" x1="727" x2="1020" y1="383.4844" y2="383.4844"/><text fill="#00008B" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="216" x="732" y="400.4795">+ excluir(clinica: Clinica)-&gt; bool</text><text fill="#00008B" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="283" x="732" y="416.7764">+ incluir(nome_clinica: str, endereco: str,</text><text fill="#00008B" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="275" x="732" y="433.0732">email: str, cnpj: str, telefone: str)-&gt; bool</text></g><!--MD5=[c20a89284a0e8e6ac8e0ff70dfb586d7]
+class Prontuario--><g id="elem_Prontuario"><rect codeLine="88" fill="#F1F1F1" height="259.8594" id="Prontuario" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="566" x="1183.5" y="926"/><ellipse cx="1426.75" cy="942" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M1429.7188,947.6406 Q1429.1406,947.9375 1428.5,948.0781 Q1427.8594,948.2344 1427.1563,948.2344 Q1424.6563,948.2344 1423.3281,946.5938 Q1422.0156,944.9375 1422.0156,941.8125 Q1422.0156,938.6875 1423.3281,937.0313 Q1424.6563,935.375 1427.1563,935.375 Q1427.8594,935.375 1428.5,935.5313 Q1429.1563,935.6875 1429.7188,935.9844 L1429.7188,938.7031 Q1429.0938,938.125 1428.5,937.8594 Q1427.9063,937.5781 1427.2813,937.5781 Q1425.9375,937.5781 1425.25,938.6563 Q1424.5625,939.7188 1424.5625,941.8125 Q1424.5625,943.9063 1425.25,944.9844 Q1425.9375,946.0469 1427.2813,946.0469 Q1427.9063,946.0469 1428.5,945.7813 Q1429.0938,945.5 1429.7188,944.9219 L1429.7188,947.6406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="71" x="1447.25" y="946.8467">Prontuario</text><line style="stroke:#181818;stroke-width:0.5;" x1="1184.5" x2="1748.5" y1="958" y2="958"/><text fill="#8B4513" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="125" x="1189.5" y="974.9951">- id_prontuario: int</text><text fill="#8B4513" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="109" x="1189.5" y="991.292">- data: datetime</text><text fill="#8B4513" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="133" x="1189.5" y="1007.5889">- procedimento: str</text><text fill="#8B4513" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="138" x="1189.5" y="1023.8857">- paciente: Paciente</text><text fill="#8B4513" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="116" x="1189.5" y="1040.1826">- diagnostico: str</text><line style="stroke:#181818;stroke-width:0.5;" x1="1184.5" x2="1748.5" y1="1047.4844" y2="1047.4844"/><text fill="#00008B" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="271" x="1189.5" y="1064.4795">+ alterar(prontuario: Prontuario)-&gt; bool</text><text fill="#00008B" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="294" x="1189.5" y="1080.7764">+ buscar(descricao: str): List&lt;Prontuario&gt;</text><text fill="#00008B" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="272" x="1189.5" y="1097.0732">+ excluir(prontuario: Prontuario)-&gt; bool</text><text fill="#00008B" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="305" x="1189.5" y="1113.3701">+ exibir(prontuario: Prontuario)-&gt; Prontuario</text><text fill="#00008B" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="554" x="1189.5" y="1129.667">+ incluir(id_prontuario: int, data: datetime, procedimento: str, paciente: Paciente</text><text fill="#00008B" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="163" x="1189.5" y="1145.9639">diagnostico: str)-&gt; bool</text><text fill="#00008B" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="360" x="1189.5" y="1162.2607">+ arquivar_prontuario(prontuario: Prontuario)-&gt; bool</text><text fill="#00008B" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="379" x="1189.5" y="1178.5576">+ recuperar_prontuario(id_prontuario: int)-&gt; Prontuario</text></g><!--MD5=[377cd576c22b710af8cfd621f3fafdf1]
+class Agenda--><g id="elem_Agenda"><rect codeLine="104" fill="#F1F1F1" height="145.7813" id="Agenda" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="365" x="2291" y="1319"/><ellipse cx="2442.75" cy="1335" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M2445.7188,1340.6406 Q2445.1406,1340.9375 2444.5,1341.0781 Q2443.8594,1341.2344 2443.1563,1341.2344 Q2440.6563,1341.2344 2439.3281,1339.5938 Q2438.0156,1337.9375 2438.0156,1334.8125 Q2438.0156,1331.6875 2439.3281,1330.0313 Q2440.6563,1328.375 2443.1563,1328.375 Q2443.8594,1328.375 2444.5,1328.5313 Q2445.1563,1328.6875 2445.7188,1328.9844 L2445.7188,1331.7031 Q2445.0938,1331.125 2444.5,1330.8594 Q2443.9063,1330.5781 2443.2813,1330.5781 Q2441.9375,1330.5781 2441.25,1331.6563 Q2440.5625,1332.7188 2440.5625,1334.8125 Q2440.5625,1336.9063 2441.25,1337.9844 Q2441.9375,1339.0469 2443.2813,1339.0469 Q2443.9063,1339.0469 2444.5,1338.7813 Q2445.0938,1338.5 2445.7188,1337.9219 L2445.7188,1340.6406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="53" x="2463.25" y="1339.8467">Agenda</text><line style="stroke:#181818;stroke-width:0.5;" x1="2292" x2="2655" y1="1351" y2="1351"/><text fill="#8B4513" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="109" x="2297" y="1367.9951">- data: datetime</text><text fill="#8B4513" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="160" x="2297" y="1384.292">- horario_reservado: str</text><text fill="#8B4513" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="119" x="2297" y="1400.5889">- sessao: Sessao</text><line style="stroke:#181818;stroke-width:0.5;" x1="2292" x2="2655" y1="1407.8906" y2="1407.8906"/><text fill="#00008B" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="302" x="2297" y="1424.8857">+ reservar_horario(agenda: Agenda)-&gt; bool</text><text fill="#00008B" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="288" x="2297" y="1441.1826">+ liberar_horario(agenda: Agenda)-&gt; bool</text><text fill="#00008B" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="353" x="2297" y="1457.4795">+ verificar_disponibilidade(agenda: Agenda)-&gt; bool</text></g><!--MD5=[17467ebbeb1d3aae84ae2d687f112f57]
+class Sessao--><g id="elem_Sessao"><rect codeLine="113" fill="#F1F1F1" height="373.9375" id="Sessao" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="535" x="1785" y="869"/><ellipse cx="2022.75" cy="885" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M2025.7188,890.6406 Q2025.1406,890.9375 2024.5,891.0781 Q2023.8594,891.2344 2023.1563,891.2344 Q2020.6563,891.2344 2019.3281,889.5938 Q2018.0156,887.9375 2018.0156,884.8125 Q2018.0156,881.6875 2019.3281,880.0313 Q2020.6563,878.375 2023.1563,878.375 Q2023.8594,878.375 2024.5,878.5313 Q2025.1563,878.6875 2025.7188,878.9844 L2025.7188,881.7031 Q2025.0938,881.125 2024.5,880.8594 Q2023.9063,880.5781 2023.2813,880.5781 Q2021.9375,880.5781 2021.25,881.6563 Q2020.5625,882.7188 2020.5625,884.8125 Q2020.5625,886.9063 2021.25,887.9844 Q2021.9375,889.0469 2023.2813,889.0469 Q2023.9063,889.0469 2024.5,888.7813 Q2025.0938,888.5 2025.7188,887.9219 L2025.7188,890.6406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="51" x="2043.25" y="889.8467">Sessao</text><line style="stroke:#181818;stroke-width:0.5;" x1="1786" x2="2319" y1="901" y2="901"/><text fill="#8B4513" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="166" x="1791" y="917.9951">- data_sessao: datetime</text><text fill="#8B4513" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="121" x="1791" y="934.292">- valor_pago: float</text><text fill="#8B4513" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="143" x="1791" y="950.5889">- nome_paciente: str</text><text fill="#8B4513" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="138" x="1791" y="966.8857">- paciente: Paciente</text><text fill="#8B4513" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="134" x="1791" y="983.1826">- nome_usuario: str</text><text fill="#8B4513" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="156" x="1791" y="999.4795">- terapeuta: Terapeuta</text><text fill="#8B4513" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="176" x="1791" y="1015.7764">- pagamento: Pagamento</text><text fill="#8B4513" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="146" x="1791" y="1032.0732">- convenio: Convenio</text><text fill="#8B4513" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="98" x="1791" y="1048.3701">- evolucao: str</text><text fill="#8B4513" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="202" x="1791" y="1064.667">- status_presenca: str&lt;/color</text><line style="stroke:#181818;stroke-width:0.5;" x1="1786" x2="2319" y1="1071.9688" y2="1071.9688"/><text fill="#00008B" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="230" x="1791" y="1088.9639">+ alterar(sessao: Sessao)-&gt; bool</text><text fill="#00008B" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="286" x="1791" y="1105.2607">+ buscar(descricao: str)-&gt; List&lt;Sessao&gt;</text><text fill="#00008B" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="231" x="1791" y="1121.5576">+ excluir(sessao: Sessao)-&gt; bool</text><text fill="#00008B" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="244" x="1791" y="1137.8545">+ exibir(sessao: Sessao)-&gt; Sessao</text><text fill="#00008B" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="359" x="1791" y="1154.1514">+ incluir(paciente: Paciente, data_sessao: datetime,</text><text fill="#00008B" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="523" x="1791" y="1170.4482">terapeuta: Terapeuta, pagamento: Pagamento, convenio: Convenio)-&gt; bool</text><text fill="#00008B" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="303" x="1791" y="1186.7451">+ exibir_mensagem(mensagem: str)-&gt; bool</text><text fill="#00008B" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="432" x="1791" y="1203.042">+ registrar_status(sessao:Sessao, statu_presenca: str)-&gt; bool</text><text fill="#00008B" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="410" x="1791" y="1219.3389">+ registrar_evolucao(sessao: Sessao, evolucao: str)-&gt; bool</text><text fill="#00008B" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="446" x="1791" y="1235.6357">+ duplicar_sessao(sessao: Sessao, nova_data: datetime)-&gt; bool</text></g><!--MD5=[1753751c87c25f689804f2380ef6b009]
+class Pagamento--><g id="elem_Pagamento"><rect codeLine="138" fill="#F1F1F1" height="178.375" id="Pagamento" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="521" x="797" y="1303"/><ellipse cx="1013.75" cy="1319" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M1016.7188,1324.6406 Q1016.1406,1324.9375 1015.5,1325.0781 Q1014.8594,1325.2344 1014.1563,1325.2344 Q1011.6563,1325.2344 1010.3281,1323.5938 Q1009.0156,1321.9375 1009.0156,1318.8125 Q1009.0156,1315.6875 1010.3281,1314.0313 Q1011.6563,1312.375 1014.1563,1312.375 Q1014.8594,1312.375 1015.5,1312.5313 Q1016.1563,1312.6875 1016.7188,1312.9844 L1016.7188,1315.7031 Q1016.0938,1315.125 1015.5,1314.8594 Q1014.9063,1314.5781 1014.2813,1314.5781 Q1012.9375,1314.5781 1012.25,1315.6563 Q1011.5625,1316.7188 1011.5625,1318.8125 Q1011.5625,1320.9063 1012.25,1321.9844 Q1012.9375,1323.0469 1014.2813,1323.0469 Q1014.9063,1323.0469 1015.5,1322.7813 Q1016.0938,1322.5 1016.7188,1321.9219 L1016.7188,1324.6406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="79" x="1034.25" y="1323.8467">Pagamento</text><line style="stroke:#181818;stroke-width:0.5;" x1="798" x2="1317" y1="1335" y2="1335"/><text fill="#8B4513" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="195" x="803" y="1351.9951">- data_pagamento: datetime</text><text fill="#8B4513" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="121" x="803" y="1368.292">- valor_pago: float</text><text fill="#8B4513" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="239" x="803" y="1384.5889">- tipo_pagamento: TipoPagamento</text><text fill="#8B4513" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="79" x="803" y="1400.8857">- status: str</text><text fill="#8B4513" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="119" x="803" y="1417.1826">- sessao: Sessao</text><line style="stroke:#181818;stroke-width:0.5;" x1="798" x2="1317" y1="1424.4844" y2="1424.4844"/><text fill="#00008B" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="509" x="803" y="1441.4795">+ incluir(nome_paciente: str, data_pagamento: datetime, valor_pago: float</text><text fill="#00008B" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="381" x="803" y="1457.7764">forma_pagamento: TipoPagamento, status: str) -&gt; bool</text><text fill="#00008B" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="291" x="803" y="1474.0732">+ alterar(pagamento: Pagamento) -&gt; bool</text></g><!--MD5=[48d60c37cbd78a9c5c654dd4f60427fb]
+class Convenio--><g id="elem_Convenio"><rect codeLine="149" fill="#F1F1F1" height="162.0781" id="Convenio" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="316" x="1940.5" y="1311"/><ellipse cx="2061.75" cy="1327" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M2064.7188,1332.6406 Q2064.1406,1332.9375 2063.5,1333.0781 Q2062.8594,1333.2344 2062.1563,1333.2344 Q2059.6563,1333.2344 2058.3281,1331.5938 Q2057.0156,1329.9375 2057.0156,1326.8125 Q2057.0156,1323.6875 2058.3281,1322.0313 Q2059.6563,1320.375 2062.1563,1320.375 Q2062.8594,1320.375 2063.5,1320.5313 Q2064.1563,1320.6875 2064.7188,1320.9844 L2064.7188,1323.7031 Q2064.0938,1323.125 2063.5,1322.8594 Q2062.9063,1322.5781 2062.2813,1322.5781 Q2060.9375,1322.5781 2060.25,1323.6563 Q2059.5625,1324.7188 2059.5625,1326.8125 Q2059.5625,1328.9063 2060.25,1329.9844 Q2060.9375,1331.0469 2062.2813,1331.0469 Q2062.9063,1331.0469 2063.5,1330.7813 Q2064.0938,1330.5 2064.7188,1329.9219 L2064.7188,1332.6406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="65" x="2082.25" y="1331.8467">Convenio</text><line style="stroke:#181818;stroke-width:0.5;" x1="1941.5" x2="2255.5" y1="1343" y2="1343"/><text fill="#8B4513" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="76" x="1946.5" y="1359.9951">- nome: str</text><text fill="#8B4513" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="103" x="1946.5" y="1376.292">- cobertura: str</text><line style="stroke:#181818;stroke-width:0.5;" x1="1941.5" x2="2255.5" y1="1383.5938" y2="1383.5938"/><text fill="#00008B" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="261" x="1946.5" y="1400.5889">+ alterar(convenio: Convenio) -&gt; bool</text><text fill="#00008B" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="304" x="1946.5" y="1416.8857">+ buscar(descricao: str) -&gt; List&lt;Convenio&gt;</text><text fill="#00008B" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="258" x="1946.5" y="1433.1826">+ excluir(convenio: Convenio)-&gt; bool</text><text fill="#00008B" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="285" x="1946.5" y="1449.4795">+ exibir(convenio: Convenio)-&gt; Convenio</text><text fill="#00008B" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="286" x="1946.5" y="1465.7764">+ incluir(nome: str, cobertura: str)-&gt; bool</text></g><!--MD5=[78cdd9b17886855663dcb306d7ffe973]
+class Anamnese--><g id="elem_Anamnese"><rect codeLine="159" fill="#F1F1F1" height="178.375" id="Anamnese" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="369" x="7" y="967"/><ellipse cx="150.25" cy="983" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M153.2188,988.6406 Q152.6406,988.9375 152,989.0781 Q151.3594,989.2344 150.6563,989.2344 Q148.1563,989.2344 146.8281,987.5938 Q145.5156,985.9375 145.5156,982.8125 Q145.5156,979.6875 146.8281,978.0313 Q148.1563,976.375 150.6563,976.375 Q151.3594,976.375 152,976.5313 Q152.6563,976.6875 153.2188,976.9844 L153.2188,979.7031 Q152.5938,979.125 152,978.8594 Q151.4063,978.5781 150.7813,978.5781 Q149.4375,978.5781 148.75,979.6563 Q148.0625,980.7188 148.0625,982.8125 Q148.0625,984.9063 148.75,985.9844 Q149.4375,987.0469 150.7813,987.0469 Q151.4063,987.0469 152,986.7813 Q152.5938,986.5 153.2188,985.9219 L153.2188,988.6406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="74" x="170.75" y="987.8467">Anamnese</text><line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="375" y1="999" y2="999"/><text fill="#8B4513" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="147" x="13" y="1015.9951">- nome_paciente: str,</text><text fill="#8B4513" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="125" x="13" y="1032.292">paciente:Paciente</text><text fill="#8B4513" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="112" x="13" y="1048.5889">- informacao: str</text><line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="375" y1="1055.8906" y2="1055.8906"/><text fill="#00008B" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="276" x="13" y="1072.8857">+ alterar(anamnese: Anamnese)-&gt; bool</text><text fill="#00008B" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="318" x="13" y="1089.1826">+ buscar(informacao: str)-&gt; List&lt;Anamnese&gt;</text><text fill="#00008B" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="277" x="13" y="1105.4795">+ excluir(anamnese: Anamnese)-&gt; bool</text><text fill="#00008B" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="313" x="13" y="1121.7764">+ exibir(anamnese: Anamnese)-&gt; Anamnese</text><text fill="#00008B" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="357" x="13" y="1138.0732">+ incluir(paciente: Paciente, informacao: str)-&gt; bool</text></g><!--MD5=[ecf6fda8ad8fbea011484620b105d3c4]
+class PlanoIntervencao--><g id="elem_PlanoIntervencao"><rect codeLine="170" fill="#F1F1F1" height="210.9688" id="PlanoIntervencao" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="521" x="411" y="950.5"/><ellipse cx="607.75" cy="966.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M610.7188,972.1406 Q610.1406,972.4375 609.5,972.5781 Q608.8594,972.7344 608.1563,972.7344 Q605.6563,972.7344 604.3281,971.0938 Q603.0156,969.4375 603.0156,966.3125 Q603.0156,963.1875 604.3281,961.5313 Q605.6563,959.875 608.1563,959.875 Q608.8594,959.875 609.5,960.0313 Q610.1563,960.1875 610.7188,960.4844 L610.7188,963.2031 Q610.0938,962.625 609.5,962.3594 Q608.9063,962.0781 608.2813,962.0781 Q606.9375,962.0781 606.25,963.1563 Q605.5625,964.2188 605.5625,966.3125 Q605.5625,968.4063 606.25,969.4844 Q606.9375,970.5469 608.2813,970.5469 Q608.9063,970.5469 609.5,970.2813 Q610.0938,970 610.7188,969.4219 L610.7188,972.1406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="119" x="628.25" y="971.3467">PlanoIntervencao</text><line style="stroke:#181818;stroke-width:0.5;" x1="412" x2="931" y1="982.5" y2="982.5"/><text fill="#8B4513" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="147" x="417" y="999.4951">- nome_paciente: str,</text><text fill="#8B4513" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="125" x="417" y="1015.792">paciente:Paciente</text><text fill="#8B4513" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="71" x="417" y="1032.0889">- meta: str</text><text fill="#8B4513" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="90" x="417" y="1048.3857">- objetivo: str</text><text fill="#8B4513" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="105" x="417" y="1064.6826">- estrategia: str</text><line style="stroke:#181818;stroke-width:0.5;" x1="412" x2="931" y1="1071.9844" y2="1071.9844"/><text fill="#00008B" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="374" x="417" y="1088.9795">+ alterar(plano_intervencao: PlanoIntervencao)-&gt; bool</text><text fill="#00008B" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="342" x="417" y="1105.2764">+ buscar(descricao: str): List&lt;PlanoIntervencao&gt;</text><text fill="#00008B" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="375" x="417" y="1121.5732">+ excluir(plano_intervencao: PlanoIntervencao)-&gt; bool</text><text fill="#00008B" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="456" x="417" y="1137.8701">+ exibir(plano_intervencao: PlanoIntervencao)-&gt; PlanoIntervencao</text><text fill="#00008B" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="509" x="417" y="1154.167">+ incluir(paciente: Paciente, meta: str, objetivo: str, estrategia: str)-&gt; bool</text></g><!--MD5=[924cc1d6631d03668b3b23fb9b199913]
+class EnumTipoPagamento--><g id="elem_EnumTipoPagamento"><rect codeLine="183" fill="#F1F1F1" height="129.4844" id="EnumTipoPagamento" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="181" x="967" y="991.5"/><ellipse cx="982" cy="1007.5" fill="#EB937F" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M986.1094,1013.5 L978.3906,1013.5 L978.3906,1001.1094 L986.1094,1001.1094 L986.1094,1003.2656 L980.8438,1003.2656 L980.8438,1005.9375 L985.6094,1005.9375 L985.6094,1008.0938 L980.8438,1008.0938 L980.8438,1011.3438 L986.1094,1011.3438 L986.1094,1013.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="149" x="996" y="1012.3467">EnumTipoPagamento</text><line style="stroke:#181818;stroke-width:0.5;" x1="968" x2="1147" y1="1023.5" y2="1023.5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="67" x="973" y="1040.4951">DINHEIRO</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="21" x="973" y="1056.792">PIX</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="128" x="973" y="1073.0889">CARTAO_CREDITO</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="118" x="973" y="1089.3857">CARTAO_DEBITO</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="57" x="973" y="1105.6826">BOLETO</text><line style="stroke:#181818;stroke-width:0.5;" x1="968" x2="1147" y1="1112.9844" y2="1112.9844"/></g><!--MD5=[02bf76ab2e38c594133a7f98939b8575]
+class Relatorio--><g id="elem_Relatorio"><rect codeLine="192" fill="#F1F1F1" height="96.8906" id="Relatorio" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="280" x="1582.5" y="1747"/><ellipse cx="1687.75" cy="1763" fill="#A9DCDF" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M1687.8594,1758.3438 L1686.7031,1763.4219 L1689.0313,1763.4219 L1687.8594,1758.3438 Z M1686.375,1756.1094 L1689.3594,1756.1094 L1692.7188,1768.5 L1690.2656,1768.5 L1689.5,1765.4375 L1686.2188,1765.4375 L1685.4688,1768.5 L1683.0313,1768.5 L1686.375,1756.1094 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="61" x="1708.25" y="1767.8467">Relatorio</text><line style="stroke:#181818;stroke-width:0.5;" x1="1583.5" x2="1861.5" y1="1779" y2="1779"/><text fill="#8B4513" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="76" x="1588.5" y="1795.9951">- nome: str</text><text fill="#8B4513" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="89" x="1588.5" y="1812.292">- periodo: str</text><line style="stroke:#181818;stroke-width:0.5;" x1="1583.5" x2="1861.5" y1="1819.5938" y2="1819.5938"/><text fill="#00008B" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="268" x="1588.5" y="1836.5889">+ gerar(nome: str, periodo: str)-&gt; bool</text></g><!--MD5=[e8a24174e26086730edf4845acaff2dc]
+class RelatorioConvenio--><g id="elem_RelatorioConvenio"><rect codeLine="198" fill="#F1F1F1" height="113.1875" id="RelatorioConvenio" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="294" x="2298.5" y="1557.5"/><ellipse cx="2378.25" cy="1573.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M2381.2188,1579.1406 Q2380.6406,1579.4375 2380,1579.5781 Q2379.3594,1579.7344 2378.6563,1579.7344 Q2376.1563,1579.7344 2374.8281,1578.0938 Q2373.5156,1576.4375 2373.5156,1573.3125 Q2373.5156,1570.1875 2374.8281,1568.5313 Q2376.1563,1566.875 2378.6563,1566.875 Q2379.3594,1566.875 2380,1567.0313 Q2380.6563,1567.1875 2381.2188,1567.4844 L2381.2188,1570.2031 Q2380.5938,1569.625 2380,1569.3594 Q2379.4063,1569.0781 2378.7813,1569.0781 Q2377.4375,1569.0781 2376.75,1570.1563 Q2376.0625,1571.2188 2376.0625,1573.3125 Q2376.0625,1575.4063 2376.75,1576.4844 Q2377.4375,1577.5469 2378.7813,1577.5469 Q2379.4063,1577.5469 2380,1577.2813 Q2380.5938,1577 2381.2188,1576.4219 L2381.2188,1579.1406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="126" x="2398.75" y="1578.3467">RelatorioConvenio</text><line style="stroke:#181818;stroke-width:0.5;" x1="2299.5" x2="2591.5" y1="1589.5" y2="1589.5"/><text fill="#8B4513" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="146" x="2304.5" y="1606.4951">- convenio: Convenio</text><line style="stroke:#181818;stroke-width:0.5;" x1="2299.5" x2="2591.5" y1="1613.7969" y2="1613.7969"/><text fill="#00008B" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="188" x="2304.5" y="1630.792">+ exibir(relatorio_convenio:</text><text fill="#00008B" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="278" x="2304.5" y="1647.0889">RelatorioConvenio)-&gt; RelatorioConvenio</text><text fill="#00008B" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="268" x="2304.5" y="1663.3857">+ gerar(nome: str, periodo: str)-&gt; bool</text></g><!--MD5=[53b2425586857e26c4d75354498e509e]
+class RelatorioRentabilidade--><g id="elem_RelatorioRentabilidade"><rect codeLine="206" fill="#F1F1F1" height="129.4844" id="RelatorioRentabilidade" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="352" x="1911.5" y="1549.5"/><ellipse cx="2005.75" cy="1565.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M2008.7188,1571.1406 Q2008.1406,1571.4375 2007.5,1571.5781 Q2006.8594,1571.7344 2006.1563,1571.7344 Q2003.6563,1571.7344 2002.3281,1570.0938 Q2001.0156,1568.4375 2001.0156,1565.3125 Q2001.0156,1562.1875 2002.3281,1560.5313 Q2003.6563,1558.875 2006.1563,1558.875 Q2006.8594,1558.875 2007.5,1559.0313 Q2008.1563,1559.1875 2008.7188,1559.4844 L2008.7188,1562.2031 Q2008.0938,1561.625 2007.5,1561.3594 Q2006.9063,1561.0781 2006.2813,1561.0781 Q2004.9375,1561.0781 2004.25,1562.1563 Q2003.5625,1563.2188 2003.5625,1565.3125 Q2003.5625,1567.4063 2004.25,1568.4844 Q2004.9375,1569.5469 2006.2813,1569.5469 Q2006.9063,1569.5469 2007.5,1569.2813 Q2008.0938,1569 2008.7188,1568.4219 L2008.7188,1571.1406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="155" x="2026.25" y="1570.3467">RelatorioRentabilidade</text><line style="stroke:#181818;stroke-width:0.5;" x1="1912.5" x2="2262.5" y1="1581.5" y2="1581.5"/><text fill="#8B4513" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="163" x="1917.5" y="1598.4951">- fluxo_caixa: FluxoCaixa</text><text fill="#8B4513" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="118" x="1917.5" y="1614.792">- total_cliente: int</text><line style="stroke:#181818;stroke-width:0.5;" x1="1912.5" x2="2262.5" y1="1622.0938" y2="1622.0938"/><text fill="#00008B" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="214" x="1917.5" y="1639.0889">+ exibir(relatorio_rentabilidade:</text><text fill="#00008B" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="336" x="1917.5" y="1655.3857">RelatorioRentabilidade)-&gt; RelatorioRentabilidade</text><text fill="#00008B" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="268" x="1917.5" y="1671.6826">+ gerar(nome: str, periodo: str)-&gt; bool</text></g><!--MD5=[e28187b84255c1a72020c7c712b6f2f8]
+class RelatorioFluxoCaixa--><g id="elem_RelatorioFluxoCaixa"><rect codeLine="214" fill="#F1F1F1" height="113.1875" id="RelatorioFluxoCaixa" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="308" x="1568.5" y="1557.5"/><ellipse cx="1651.75" cy="1573.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M1654.7188,1579.1406 Q1654.1406,1579.4375 1653.5,1579.5781 Q1652.8594,1579.7344 1652.1563,1579.7344 Q1649.6563,1579.7344 1648.3281,1578.0938 Q1647.0156,1576.4375 1647.0156,1573.3125 Q1647.0156,1570.1875 1648.3281,1568.5313 Q1649.6563,1566.875 1652.1563,1566.875 Q1652.8594,1566.875 1653.5,1567.0313 Q1654.1563,1567.1875 1654.7188,1567.4844 L1654.7188,1570.2031 Q1654.0938,1569.625 1653.5,1569.3594 Q1652.9063,1569.0781 1652.2813,1569.0781 Q1650.9375,1569.0781 1650.25,1570.1563 Q1649.5625,1571.2188 1649.5625,1573.3125 Q1649.5625,1575.4063 1650.25,1576.4844 Q1650.9375,1577.5469 1652.2813,1577.5469 Q1652.9063,1577.5469 1653.5,1577.2813 Q1654.0938,1577 1654.7188,1576.4219 L1654.7188,1579.1406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="133" x="1672.25" y="1578.3467">RelatorioFluxoCaixa</text><line style="stroke:#181818;stroke-width:0.5;" x1="1569.5" x2="1875.5" y1="1589.5" y2="1589.5"/><text fill="#8B4513" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="163" x="1574.5" y="1606.4951">- fluxo_caixa: FluxoCaixa</text><line style="stroke:#181818;stroke-width:0.5;" x1="1569.5" x2="1875.5" y1="1613.7969" y2="1613.7969"/><text fill="#00008B" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="198" x="1574.5" y="1630.792">+ exibir(relatorio_fluxo_caixa:</text><text fill="#00008B" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="296" x="1574.5" y="1647.0889">RelatorioFluxoCaixa) -&gt; RelatorioFluxoCaixa</text><text fill="#00008B" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="268" x="1574.5" y="1663.3857">+ gerar(nome: str, periodo: str)-&gt; bool</text></g><!--MD5=[6f8a4f148e9df4133079054340222bf6]
+class RelatorioProcedimento--><g id="elem_RelatorioProcedimento"><rect codeLine="221" fill="#F1F1F1" height="145.7813" id="RelatorioProcedimento" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="354" x="1179.5" y="1541"/><ellipse cx="1273.25" cy="1557" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M1276.2188,1562.6406 Q1275.6406,1562.9375 1275,1563.0781 Q1274.3594,1563.2344 1273.6563,1563.2344 Q1271.1563,1563.2344 1269.8281,1561.5938 Q1268.5156,1559.9375 1268.5156,1556.8125 Q1268.5156,1553.6875 1269.8281,1552.0313 Q1271.1563,1550.375 1273.6563,1550.375 Q1274.3594,1550.375 1275,1550.5313 Q1275.6563,1550.6875 1276.2188,1550.9844 L1276.2188,1553.7031 Q1275.5938,1553.125 1275,1552.8594 Q1274.4063,1552.5781 1273.7813,1552.5781 Q1272.4375,1552.5781 1271.75,1553.6563 Q1271.0625,1554.7188 1271.0625,1556.8125 Q1271.0625,1558.9063 1271.75,1559.9844 Q1272.4375,1561.0469 1273.7813,1561.0469 Q1274.4063,1561.0469 1275,1560.7813 Q1275.5938,1560.5 1276.2188,1559.9219 L1276.2188,1562.6406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="158" x="1293.75" y="1561.8467">RelatorioProcedimento</text><line style="stroke:#181818;stroke-width:0.5;" x1="1180.5" x2="1532.5" y1="1573" y2="1573"/><text fill="#8B4513" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="133" x="1185.5" y="1589.9951">- procedimento: str</text><text fill="#8B4513" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="160" x="1185.5" y="1606.292">- prontuario: Prontuario</text><text fill="#8B4513" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="171" x="1185.5" y="1622.5889">- qtde_procedimento: int</text><line style="stroke:#181818;stroke-width:0.5;" x1="1180.5" x2="1532.5" y1="1629.8906" y2="1629.8906"/><text fill="#00008B" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="222" x="1185.5" y="1646.8857">+ exibir(relatorio_procedimento:</text><text fill="#00008B" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="342" x="1185.5" y="1663.1826">RelatorioProcedimento)-&gt; RelatorioProcedimento</text><text fill="#00008B" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="268" x="1185.5" y="1679.4795">+ gerar(nome: str, periodo: str)-&gt; bool</text></g><!--MD5=[192e1aedba95bba09568c053f353935d]
+class RelatorioFormaPagamento--><g id="elem_RelatorioFormaPagamento"><rect codeLine="230" fill="#F1F1F1" height="145.7813" id="RelatorioFormaPagamento" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="329" x="816" y="1541"/><ellipse cx="884.75" cy="1557" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M887.7188,1562.6406 Q887.1406,1562.9375 886.5,1563.0781 Q885.8594,1563.2344 885.1563,1563.2344 Q882.6563,1563.2344 881.3281,1561.5938 Q880.0156,1559.9375 880.0156,1556.8125 Q880.0156,1553.6875 881.3281,1552.0313 Q882.6563,1550.375 885.1563,1550.375 Q885.8594,1550.375 886.5,1550.5313 Q887.1563,1550.6875 887.7188,1550.9844 L887.7188,1553.7031 Q887.0938,1553.125 886.5,1552.8594 Q885.9063,1552.5781 885.2813,1552.5781 Q883.9375,1552.5781 883.25,1553.6563 Q882.5625,1554.7188 882.5625,1556.8125 Q882.5625,1558.9063 883.25,1559.9844 Q883.9375,1561.0469 885.2813,1561.0469 Q885.9063,1561.0469 886.5,1560.7813 Q887.0938,1560.5 887.7188,1559.9219 L887.7188,1562.6406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="183" x="905.25" y="1561.8467">RelatorioFormaPagamento</text><line style="stroke:#181818;stroke-width:0.5;" x1="817" x2="1144" y1="1573" y2="1573"/><text fill="#8B4513" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="239" x="822" y="1589.9951">- tipo_pagamento: TipoPagamento</text><text fill="#8B4513" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="176" x="822" y="1606.292">- pagamento: Pagamento</text><text fill="#8B4513" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="100" x="822" y="1622.5889">- qtde_tipo: int</text><line style="stroke:#181818;stroke-width:0.5;" x1="817" x2="1144" y1="1629.8906" y2="1629.8906"/><text fill="#00008B" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="250" x="822" y="1646.8857">+ exibir(relatorio_forma_pagamento:</text><text fill="#00008B" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="313" x="826" y="1663.1826">RelatorioFormaPagamento)-&gt; RelatorioForma</text><text fill="#00008B" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="268" x="822" y="1679.4795">+ gerar(nome: str, periodo: str)-&gt; bool</text></g><!--MD5=[c029bdd108548c0995c065089d7bfbe2]
+class FluxoCaixa--><g id="elem_FluxoCaixa"><rect codeLine="239" fill="#F1F1F1" height="145.7813" id="FluxoCaixa" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="366" x="1539.5" y="1319"/><ellipse cx="1682.25" cy="1335" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M1685.2188,1340.6406 Q1684.6406,1340.9375 1684,1341.0781 Q1683.3594,1341.2344 1682.6563,1341.2344 Q1680.1563,1341.2344 1678.8281,1339.5938 Q1677.5156,1337.9375 1677.5156,1334.8125 Q1677.5156,1331.6875 1678.8281,1330.0313 Q1680.1563,1328.375 1682.6563,1328.375 Q1683.3594,1328.375 1684,1328.5313 Q1684.6563,1328.6875 1685.2188,1328.9844 L1685.2188,1331.7031 Q1684.5938,1331.125 1684,1330.8594 Q1683.4063,1330.5781 1682.7813,1330.5781 Q1681.4375,1330.5781 1680.75,1331.6563 Q1680.0625,1332.7188 1680.0625,1334.8125 Q1680.0625,1336.9063 1680.75,1337.9844 Q1681.4375,1339.0469 1682.7813,1339.0469 Q1683.4063,1339.0469 1684,1338.7813 Q1684.5938,1338.5 1685.2188,1337.9219 L1685.2188,1340.6406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="72" x="1702.75" y="1339.8467">FluxoCaixa</text><line style="stroke:#181818;stroke-width:0.5;" x1="1540.5" x2="1904.5" y1="1351" y2="1351"/><text fill="#8B4513" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="100" x="1545.5" y="1367.9951">- entrada: float</text><text fill="#8B4513" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="83" x="1545.5" y="1384.292">- saida: float</text><text fill="#8B4513" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="84" x="1545.5" y="1400.5889">- saldo: float</text><line style="stroke:#181818;stroke-width:0.5;" x1="1540.5" x2="1904.5" y1="1407.8906" y2="1407.8906"/><text fill="#00008B" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="262" x="1545.5" y="1424.8857">+ alterar(fluxo_caixa: FluxoCaixa): bool</text><text fill="#00008B" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="297" x="1545.5" y="1441.1826">+ exibir(fluxo_caixa: FluxoCaixa): FluxoCaixa</text><text fill="#00008B" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="354" x="1545.5" y="1457.4795">+ incluir(entrada: float, saida: float, total: float): bool</text></g><!--MD5=[281398206f124d7b5f2fd43caa20d14e]
+reverse link UsuarioSistema to UsuarioComum--><g id="link_UsuarioSistema_UsuarioComum"><path codeLine="249" d="M1036.5,173.04 C1036.5,173.04 1036.5,254 1036.5,254 C1036.5,254 1043.88,254 1055.88,254 " fill="none" id="UsuarioSistema-backto-UsuarioComum" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="1029.5,173.04,1036.5,153.04,1043.5,173.04,1029.5,173.04" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[127c3b960c7021c263391e06d52cd423]
+reverse link UsuarioSistema to Administrador--><g id="link_UsuarioSistema_Administrador"><path codeLine="250" d="M637.75,173.34 C637.75,173.34 637.75,212.85 637.75,212.85 " fill="none" id="UsuarioSistema-backto-Administrador" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="630.75,173.34,637.75,153.34,644.75,173.34,630.75,173.34" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[9b98d38dc70f126fd93111bf83d6986b]
+reverse link UsuarioComum to Terapeuta--><g id="link_UsuarioComum_Terapeuta"><path codeLine="251" d="M1457.13,351 C1457.13,351 2044.5,351 2044.5,351 C2044.5,351 2044.5,550.7 2044.5,638.45 " fill="none" id="UsuarioComum-backto-Terapeuta" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="1457.13,358,1437.13,351,1457.13,344,1457.13,358" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[2e46c5b3c6652d0bc1829653de5f23dc]
+reverse link UsuarioComum to Assistente--><g id="link_UsuarioComum_Assistente"><path codeLine="252" d="M1084.25,476.59 C1084.25,476.59 1084.25,630.45 1084.25,630.45 " fill="none" id="UsuarioComum-backto-Assistente" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="1077.25,476.59,1084.25,456.59,1091.25,476.59,1077.25,476.59" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[c642da1c3aedf3ff1d32596719ceed09]
+link RelatorioConvenio to Relatorio--><g id="link_RelatorioConvenio_Relatorio"><path codeLine="254" d="M2445.5,1670.59 C2445.5,1724.01 2445.5,1796 2445.5,1796 C2445.5,1796 1882.76,1796 1882.76,1796 " fill="none" id="RelatorioConvenio-to-Relatorio" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="1882.76,1803,1862.76,1796,1882.76,1789,1882.76,1803" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[affe406c308261ea46665076928ed04d]
+link RelatorioRentabilidade to Relatorio--><g id="link_RelatorioRentabilidade_Relatorio"><path codeLine="255" d="M1911.21,1675 C1848.21,1675 1792.5,1675 1792.5,1675 C1792.5,1675 1792.5,1726.84 1792.5,1726.84 " fill="none" id="RelatorioRentabilidade-to-Relatorio" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="1799.5,1726.84,1792.5,1746.84,1785.5,1726.84,1799.5,1726.84" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[57d3e95ef6c972eb736cfef34e950f30]
+link RelatorioFluxoCaixa to Relatorio--><g id="link_RelatorioFluxoCaixa_Relatorio"><path codeLine="256" d="M1722.5,1670.93 C1722.5,1670.93 1722.5,1726.72 1722.5,1726.72 " fill="none" id="RelatorioFluxoCaixa-to-Relatorio" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="1729.5,1726.72,1722.5,1746.72,1715.5,1726.72,1729.5,1726.72" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[0dcf5f03529f952a3a644a56ee1a7a6d]
+link RelatorioProcedimento to Relatorio--><g id="link_RelatorioProcedimento_Relatorio"><path codeLine="257" d="M1533.81,1683 C1596.85,1683 1652.5,1683 1652.5,1683 C1652.5,1683 1652.5,1726.81 1652.5,1726.81 " fill="none" id="RelatorioProcedimento-to-Relatorio" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="1659.5,1726.81,1652.5,1746.81,1645.5,1726.81,1659.5,1726.81" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[ae51b590d0d7ffdb0b322abffae8a4d2]
+link RelatorioFormaPagamento to Relatorio--><g id="link_RelatorioFormaPagamento_Relatorio"><path codeLine="258" d="M980.5,1687.24 C980.5,1737.81 980.5,1796 980.5,1796 C980.5,1796 1562.5,1796 1562.5,1796 " fill="none" id="RelatorioFormaPagamento-to-Relatorio" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="1562.5,1789,1582.5,1796,1562.5,1803,1562.5,1789" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[9285ef18fa4c988df2c1149fcd8f4668]
+reverse link Terapeuta to Sessao--><g id="link_Terapeuta_Sessao"><path codeLine="261" d="M2044.5,732.7 C2044.5,732.7 2044.5,868.95 2044.5,868.95 " fill="none" id="Terapeuta-backto-Sessao" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="2044.5,719.7,2040.5,725.7,2044.5,731.7,2048.5,725.7,2044.5,719.7" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="28" x="2015.5" y="796.8969">Tem</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="2035.8875" y="739.1888">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="2035.9938" y="857.8134">1</text></g><!--MD5=[717beb315336e5af79f1ee3e16b890ee]
+reverse link Paciente to Sessao--><g id="link_Paciente_Sessao"><path codeLine="262" d="M1767.25,822.24 C1767.25,822.24 1767.25,898 1767.25,898 C1767.25,898 1773.7,898 1784.66,898 " fill="none" id="Paciente-backto-Sessao" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1767.25,809.24,1763.25,815.24,1767.25,821.24,1771.25,815.24,1767.25,809.24" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="28" x="1738.25" y="864.8969">Tem</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="1775.4785" y="828.847">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="1768.5898" y="890.1565">1</text></g><!--MD5=[bdface8c16be146ac8f3a6e17b0fb880]
+reverse link Clinica to Assistente--><g id="link_Clinica_Assistente"><path codeLine="263" d="M873.5,453.19 C873.5,453.19 873.5,630.45 873.5,630.45 " fill="none" id="Clinica-backto-Assistente" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="873.5,440.19,869.5,446.19,873.5,452.19,877.5,446.19,873.5,440.19" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="41" x="831.5" y="537.8869">Possui</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="865.1563" y="460.5558">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="23" x="848.8109" y="619.3023">1..*</text></g><!--MD5=[5b0d2fa48691acc66cffb1107609c5c1]
+reverse link Sessao to Agenda--><g id="link_Sessao_Agenda"><path codeLine="264" d="M2305.5,1256.16 C2305.5,1256.16 2305.5,1318.86 2305.5,1318.86 " fill="none" id="Sessao-backto-Agenda" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="2305.5,1243.16,2301.5,1249.16,2305.5,1255.16,2309.5,1249.16,2305.5,1243.16" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="41" x="2263.5" y="1283.5769">Possui</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="23" x="2291.9336" y="1262.8346">0..*</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="2280.5688" y="1308.0062">1</text></g><!--MD5=[a0f0450821452375fb1bfbddca9b91cf]
+reverse link Sessao to Pagamento--><g id="link_Sessao_Pagamento"><path codeLine="265" d="M1845.25,1256.01 C1845.25,1256.01 1845.25,1307 1845.25,1307 C1845.25,1307 1547.55,1307 1318.17,1307 " fill="none" id="Sessao-backto-Pagamento" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1845.25,1243.01,1841.25,1249.01,1845.25,1255.01,1849.25,1249.01,1845.25,1243.01" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="41" x="1565.2" y="1303.0669">Possui</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="1828.3379" y="1263.2869">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="1326.0274" y="1301.3172">1</text></g><!--MD5=[edfa43a71f4fa9b2df1ff5c102062e23]
+reverse link Sessao to Convenio--><g id="link_Sessao_Convenio"><path codeLine="266" d="M2098.5,1256.16 C2098.5,1256.16 2098.5,1310.68 2098.5,1310.68 " fill="none" id="Sessao-backto-Convenio" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="2098.5,1243.16,2094.5,1249.16,2098.5,1255.16,2102.5,1249.16,2098.5,1243.16" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="25" x="2072.5" y="1279.4869">Usa</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="2092.1406" y="1262.8346">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="2090.1438" y="1299.8388">1</text></g><!--MD5=[7376f583bf9fa99fa3a9325d130cd0a1]
+reverse link Paciente to Prontuario--><g id="link_Paciente_Prontuario"><path codeLine="267" d="M1466.5,822.01 C1466.5,822.01 1466.5,925.87 1466.5,925.87 " fill="none" id="Paciente-backto-Prontuario" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1466.5,809.01,1462.5,815.01,1466.5,821.01,1470.5,815.01,1466.5,809.01" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="28" x="1437.5" y="870.0069">Tem</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="1458.2688" y="829.0346">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="1458.2688" y="914.9881">1</text></g><!--MD5=[964b0e106c56f8b78855b298676f3c58]
+reverse link Paciente to Anamnese--><g id="link_Paciente_Anamnese"><path codeLine="268" d="M1134.16,769 C1134.16,769 234.25,769 234.25,769 C234.25,769 234.25,882.52 234.25,966.76 " fill="none" id="Paciente-backto-Anamnese" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1147.16,769,1141.16,765,1135.16,769,1141.16,773,1147.16,769" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="28" x="556.32" y="765.0669">Tem</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="1131.5817" y="768.0037">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="229.459" y="955.8056">1</text></g><!--MD5=[8b7f6fc4063ff35164ddc6356d8af3b1]
+reverse link Paciente to PlanoIntervencao--><g id="link_Paciente_PlanoIntervencao"><path codeLine="269" d="M1165.75,822.2 C1165.75,822.2 1165.75,971 1165.75,971 C1165.75,971 1050.96,971 932.01,971 " fill="none" id="Paciente-backto-PlanoIntervencao" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1165.75,809.2,1161.75,815.2,1165.75,821.2,1169.75,815.2,1165.75,809.2" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="28" x="1094.28" y="967.0669">Tem</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="1141.084" y="828.8048">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="939.8626" y="965.3232">1</text></g><!--MD5=[27adc379c27e8c5ddfe0a15c6431faa5]
+reverse link FluxoCaixa to RelatorioFluxoCaixa--><g id="link_FluxoCaixa_RelatorioFluxoCaixa"><path codeLine="270" d="M1722.5,1478.31 C1722.5,1478.31 1722.5,1557.3 1722.5,1557.3 " fill="none" id="FluxoCaixa-backto-RelatorioFluxoCaixa" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1722.5,1465.31,1718.5,1471.31,1722.5,1477.31,1726.5,1471.31,1722.5,1465.31" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="1714.1313" y="1484.8428">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="23" x="1698.0984" y="1546.5392">0..*</text></g><!--MD5=[a63cfdf7f8047af02c0e7a93110609b2]
+reverse link FluxoCaixa to RelatorioRentabilidade--><g id="link_FluxoCaixa_RelatorioRentabilidade"><path codeLine="271" d="M1891,1478.42 C1891,1478.42 1891,1554 1891,1554 C1891,1554 1898.8,1554 1911.29,1554 " fill="none" id="FluxoCaixa-backto-RelatorioRentabilidade" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1891,1465.42,1887,1471.42,1891,1477.42,1895,1471.42,1891,1465.42" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="1898.1648" y="1484.9629">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="23" x="1884.3406" y="1546.5622">0..*</text></g><!--MD5=[b358075a447716786dc3daf596401e78]
+reverse link Convenio to RelatorioConvenio--><g id="link_Convenio_RelatorioConvenio"><path codeLine="272" d="M2269.52,1469 C2269.52,1469 2445.5,1469 2445.5,1469 C2445.5,1469 2445.5,1516.49 2445.5,1557.11 " fill="none" id="Convenio-backto-RelatorioConvenio" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="2256.52,1469,2262.52,1473,2268.52,1469,2262.52,1465,2256.52,1469" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="2264.3678" y="1469.4346">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="23" x="2421.0984" y="1546.326">0..*</text></g><!--MD5=[71559097903f45fcac88f4a8db725392]
+reverse link Prontuario to RelatorioProcedimento--><g id="link_Prontuario_RelatorioProcedimento"><path codeLine="273" d="M1425.75,1199.12 C1425.75,1199.12 1425.75,1540.63 1425.75,1540.63 " fill="none" id="Prontuario-backto-RelatorioProcedimento" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1425.75,1186.12,1421.75,1192.12,1425.75,1198.12,1429.75,1192.12,1425.75,1186.12" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="1415.3027" y="1205.7205">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="23" x="1408.2543" y="1530.0057">0..*</text></g><!--MD5=[09645820bf273506a2074c1e40578a4f]
+reverse link Pagamento to RelatorioFormaPagamento--><g id="link_Pagamento_RelatorioFormaPagamento"><path codeLine="274" d="M980.5,1494.02 C980.5,1494.02 980.5,1540.97 980.5,1540.97 " fill="none" id="Pagamento-backto-RelatorioFormaPagamento" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="980.5,1481.02,976.5,1487.02,980.5,1493.02,984.5,1487.02,980.5,1481.02" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="965.5391" y="1501.3712">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="23" x="956.3141" y="1529.7504">0..*</text></g><!--MD5=[41103feb9887609b78850ef2fca87c9e]
+link EnumTipoPagamento to Pagamento--><g id="link_EnumTipoPagamento_Pagamento"><path codeLine="275" d="M1057.5,1120.78 C1057.5,1120.78 1057.5,1297.96 1057.5,1297.96 " fill="none" id="EnumTipoPagamento-to-Pagamento" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1057.5,1302.96,1061.5,1293.96,1057.5,1297.96,1053.5,1293.96,1057.5,1302.96" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[6c729daf09c033ab8a5ec770baf4e4e6]
+@startuml
+skinparam linetype ortho
+skinparam classAttributeIconSize 1
+
+' ===================== CLASSES BÁSICAS =====================
+class UsuarioSistema {
+  <color:SaddleBrown>- nome_user: str      </color>
+  <color:SaddleBrown>- senha_user: str     </color>
+  <color:SaddleBrown>- status_log: str     </color>
+  <color:DarkBlue>+ incluir(nome_user: str, senha_user, str, status_log: str) -> bool  </color>
+  <color:DarkBlue>+ registrar_log() -> bool  </color>
+  <color:DarkBlue>+ verificar_log() -> bool   </color>
+}
+
+class UsuarioComum {
+  <color:SaddleBrown>- endereco: str</color>
+  <color:SaddleBrown>- cpf: str</color>
+  <color:SaddleBrown>- email: str</color>
+  <color:SaddleBrown>- telefone: str</color>
+  <color:DarkBlue>+ alterar(usuario: Usuario) -> bool</color>
+  <color:DarkBlue>+ buscar(descricao: str): List<Usuario></color>
+  <color:DarkBlue>+ excluir(usuario: Usuario) -> bool</color>
+  <color:DarkBlue>+ exibir(usuario: Usuario)-> Usuario</color>
+  <color:DarkBlue>+ incluir(usuario_sistema: UsuarioSistema, </color>
+  <color:DarkBlue>endereco: str, cpf: str, email: str, telefone: str)-> bool</color>
+
+}
+
+class Administrador {
+  <color:SaddleBrown>- email: str</color>
+  <color:DarkBlue>+ configurarHorarios(terapeuta: Terapeuta, horarios: List<Horario></color>
+  <color:DarkBlue>diasSemana: List<String>) -> Bool</color>
+  <color:DarkBlue>+ definirTiposSessao(tipoSessao: TipoSessao) -> Bool</color>
+  <color:DarkBlue>+ configurarRegrasCobranca(terapeuta: Terapeuta, percentualRepasse: Float</color>
+  <color:DarkBlue>valorBase: Float) -> Bool</color>
+  <color:DarkBlue>+ configurarNotificacoes(tipo: String, mensagem: String, gatilho: TipoGatilho) -> Bool</color>
+  <color:DarkBlue>+ definirDocumentos(documento: Documento, obrigatorio: Bool) -> Bool</color>
+  <color:DarkBlue>+ registrarLog(acao: String, usuario: Usuario) -> Bool</color>
+  <color:DarkBlue>+ definirTamanhoUpload(tamanhoMaximo: Integer) -> Bool</color>
+  <color:DarkBlue>+ gerenciarTemplates(template: Template) ->Bool</color>
+  <color:DarkBlue>+ definirAcesso(usuario: Usuario) -> Bool</color>
+  <color:DarkBlue>+ visualizarLog(filtroData: Date, filtroUsuario: Usuario) -> List<Log></color>
+  <color:DarkBlue>+ visualizarNotificacoes() -> List<Notificacao></color>
+    
+}
+
+class Terapeuta {
+  <color:SaddleBrown>- crefito: str     </color>
+  <color:DarkBlue>+ incluir(usuario_comum: UsuarioComum, crefito: str)-> bool</color>
+}
+
+class Assistente {
+  <color:SaddleBrown>- nome_clinica: str,    </color>
+  <color:SaddleBrown>- clinica: Clinica     </color>
+  <color:DarkBlue>+ incluir(usuario_comum: UsuarioComum, nome_clinica: str)-> bool</color>
+}
+
+class Paciente {
+  <color:SaddleBrown>- nome_paciente: str</color>
+  <color:SaddleBrown>- endereco: str</color>
+  <color:SaddleBrown>- email: str</color>
+  <color:SaddleBrown>- cpf: str</color>
+  <color:SaddleBrown>- telefone: str</color>
+  <color:SaddleBrown>- cpf_responsavel: str</color>
+  <color:SaddleBrown>- nome_responsavel: str</color>
+  <color:DarkBlue>+ alterar(paciente: Paciente)-> bool</color>
+  <color:DarkBlue>+ buscar(descricao: str)-> List<Paciente></color>
+  <color:DarkBlue>+ excluir(paciente: Paciente) -> bool</color>
+  <color:DarkBlue>+ exibir(paciente: Paciente)-> Paciente</color>
+  <color:DarkBlue>+ incluir(nome_paciente: str, endereco: str,email: str, </color>
+  <color:DarkBlue>cpf_responsavel:cpf: str, telefone: str, cpf_responsavel: str, nome_responsavel: str)-> bool</color>
+}
+
+
+
+' ===================== PRONTUÁRIO / AGENDA / SESSÃO =====================
+class Clinica {
+  <color:SaddleBrown>- nome_clinica: str</color>
+  <color:SaddleBrown>- endereco: str</color>
+  <color:SaddleBrown>- email: str</color>
+  <color:SaddleBrown>- cnpj: str</color>
+  <color:SaddleBrown>- telefone: str</color>
+  <color:DarkBlue>+ excluir(clinica: Clinica)-> bool</color>
+  <color:DarkBlue>+ incluir(nome_clinica: str, endereco: str,</color>
+   <color:DarkBlue>email: str, cnpj: str, telefone: str)-> bool</color>
+}
+
+
+class Prontuario {
+  <color:SaddleBrown>- id_prontuario: int</color>
+  <color:SaddleBrown>- data: datetime</color>
+  <color:SaddleBrown>- procedimento: str</color>
+  <color:SaddleBrown>- paciente: Paciente</color>
+  <color:SaddleBrown>- diagnostico: str</color>
+  <color:DarkBlue>+ alterar(prontuario: Prontuario)-> bool</color>
+  <color:DarkBlue>+ buscar(descricao: str): List<Prontuario></color>
+  <color:DarkBlue>+ excluir(prontuario: Prontuario)-> bool</color>
+  <color:DarkBlue>+ exibir(prontuario: Prontuario)-> Prontuario</color>
+  <color:DarkBlue>+ incluir(id_prontuario: int, data: datetime, procedimento: str, paciente: Paciente</color> 
+  <color:DarkBlue>diagnostico: str)-> bool</color>
+  <color:DarkBlue>+ arquivar_prontuario(prontuario: Prontuario)-> bool</color>
+  <color:DarkBlue>+ recuperar_prontuario(id_prontuario: int)-> Prontuario</color>
+}
+
+class Agenda {
+  <color:SaddleBrown>- data: datetime</color>
+  <color:SaddleBrown>- horario_reservado: str</color>
+  <color:SaddleBrown>- sessao: Sessao</color>
+  <color:DarkBlue>+ reservar_horario(agenda: Agenda)-> bool</color>
+  <color:DarkBlue>+ liberar_horario(agenda: Agenda)-> bool</color>
+  <color:DarkBlue>+ verificar_disponibilidade(agenda: Agenda)-> bool</color>
+}
+
+class Sessao {
+  <color:SaddleBrown>- data_sessao: datetime</color>
+  <color:SaddleBrown>- valor_pago: float</color>
+  <color:SaddleBrown>- nome_paciente: str</color>
+  <color:SaddleBrown>- paciente: Paciente</color>
+  <color:SaddleBrown>- nome_usuario: str</color>
+  <color:SaddleBrown>- terapeuta: Terapeuta</color>
+  <color:SaddleBrown>- pagamento: Pagamento</color>
+  <color:SaddleBrown>- convenio: Convenio</color>
+  <color:SaddleBrown>- evolucao: str</color>
+  <color:SaddleBrown>- status_presenca: str</color
+  <color:DarkBlue>+ alterar(sessao: Sessao)-> bool</color>
+  <color:DarkBlue>+ buscar(descricao: str)-> List<Sessao></color>
+  <color:DarkBlue>+ excluir(sessao: Sessao)-> bool</color>
+  <color:DarkBlue>+ exibir(sessao: Sessao)-> Sessao</color>
+  <color:DarkBlue>+ incluir(paciente: Paciente, data_sessao: datetime,</color>
+  <color:DarkBlue>terapeuta: Terapeuta, pagamento: Pagamento, convenio: Convenio)-> bool</color>
+  <color:DarkBlue>+ exibir_mensagem(mensagem: str)-> bool</color>
+  <color:DarkBlue>+ registrar_status(sessao:Sessao, statu_presenca: str)-> bool</color>
+  <color:DarkBlue>+ registrar_evolucao(sessao: Sessao, evolucao: str)-> bool</color>
+  <color:DarkBlue>+ duplicar_sessao(sessao: Sessao, nova_data: datetime)-> bool</color>
+  
+      
+}
+
+class Pagamento {
+  <color:SaddleBrown>- data_pagamento: datetime</color>
+  <color:SaddleBrown>- valor_pago: float</color>
+  <color:SaddleBrown>- tipo_pagamento: TipoPagamento</color>
+  <color:SaddleBrown>- status: str</color>
+  <color:SaddleBrown>- sessao: Sessao</color>
+  <color:DarkBlue>+ incluir(nome_paciente: str, data_pagamento: datetime, valor_pago: float</color>
+  <color:DarkBlue>forma_pagamento: TipoPagamento, status: str) -> bool</color>
+  <color:DarkBlue>+ alterar(pagamento: Pagamento) -> bool</color>
+}
+
+class Convenio {
+  <color:SaddleBrown>- nome: str</color>
+  <color:SaddleBrown>- cobertura: str</color>
+  <color:DarkBlue>+ alterar(convenio: Convenio) -> bool</color>
+  <color:DarkBlue>+ buscar(descricao: str) -> List<Convenio></color>
+  <color:DarkBlue>+ excluir(convenio: Convenio)-> bool</color>
+  <color:DarkBlue>+ exibir(convenio: Convenio)-> Convenio</color>
+  <color:DarkBlue>+ incluir(nome: str, cobertura: str)-> bool</color>
+}
+
+class Anamnese {
+  <color:SaddleBrown>- nome_paciente: str,</color>
+  <color:SaddleBrown>paciente:Paciente</color>
+  <color:SaddleBrown>- informacao: str</color>
+  <color:DarkBlue>+ alterar(anamnese: Anamnese)-> bool</color>
+  <color:DarkBlue>+ buscar(informacao: str)-> List<Anamnese></color>
+  <color:DarkBlue>+ excluir(anamnese: Anamnese)-> bool</color>
+  <color:DarkBlue>+ exibir(anamnese: Anamnese)-> Anamnese</color>
+  <color:DarkBlue>+ incluir(paciente: Paciente, informacao: str)-> bool</color>
+}
+
+class PlanoIntervencao {
+  <color:SaddleBrown>- nome_paciente: str,</color>
+  <color:SaddleBrown>paciente:Paciente</color>
+  <color:SaddleBrown>- meta: str</color>
+  <color:SaddleBrown>- objetivo: str</color>
+  <color:SaddleBrown>- estrategia: str</color>
+  <color:DarkBlue>+ alterar(plano_intervencao: PlanoIntervencao)-> bool</color>
+  <color:DarkBlue>+ buscar(descricao: str): List<PlanoIntervencao></color>
+  <color:DarkBlue>+ excluir(plano_intervencao: PlanoIntervencao)-> bool</color>
+  <color:DarkBlue>+ exibir(plano_intervencao: PlanoIntervencao)-> PlanoIntervencao</color>
+  <color:DarkBlue>+ incluir(paciente: Paciente, meta: str, objetivo: str, estrategia: str)-> bool</color>
+}
+' ===================== ENUM =====================
+enum EnumTipoPagamento {
+  DINHEIRO
+  PIX
+  CARTAO_CREDITO
+  CARTAO_DEBITO
+  BOLETO
+}
+
+' ===================== RELATÓRIOS / FINANCEIRO =====================
+abstract class Relatorio {
+  <color:SaddleBrown>- nome: str</color>
+  <color:SaddleBrown>- periodo: str</color>
+  <color:DarkBlue>+ {abstract} gerar(nome: str, periodo: str)-> bool</color>
+}
+
+class RelatorioConvenio {
+  <color:SaddleBrown>- convenio: Convenio</color>
+  <color:DarkBlue>+ exibir(relatorio_convenio: </color>
+  <color:DarkBlue>RelatorioConvenio)-> RelatorioConvenio </color>
+  <color:DarkBlue>+ gerar(nome: str, periodo: str)-> bool</color>
+  
+}
+
+class RelatorioRentabilidade {
+  <color:SaddleBrown>- fluxo_caixa: FluxoCaixa</color>
+  <color:SaddleBrown>- total_cliente: int</color>
+  <color:DarkBlue>+ exibir(relatorio_rentabilidade: </color>
+  <color:DarkBlue>RelatorioRentabilidade)-> RelatorioRentabilidade </color>
+  <color:DarkBlue>+ gerar(nome: str, periodo: str)-> bool</color>
+}
+
+class RelatorioFluxoCaixa {
+  <color:SaddleBrown>- fluxo_caixa: FluxoCaixa</color>
+  <color:DarkBlue>+ exibir(relatorio_fluxo_caixa: </color>
+  <color:DarkBlue>RelatorioFluxoCaixa) -> RelatorioFluxoCaixa</color>
+  <color:DarkBlue>+ gerar(nome: str, periodo: str)-> bool</color>
+}
+
+class RelatorioProcedimento {
+  <color:SaddleBrown>- procedimento: str</color>
+  <color:SaddleBrown>- prontuario: Prontuario</color>
+  <color:SaddleBrown>- qtde_procedimento: int</color>
+  <color:DarkBlue>+ exibir(relatorio_procedimento: </color>
+  <color:DarkBlue>RelatorioProcedimento)-> RelatorioProcedimento</color>
+  <color:DarkBlue>+ gerar(nome: str, periodo: str)-> bool</color>
+}
+
+class RelatorioFormaPagamento {
+  <color:SaddleBrown>- tipo_pagamento: TipoPagamento</color>
+  <color:SaddleBrown>- pagamento: Pagamento</color>
+  <color:SaddleBrown>- qtde_tipo: int</color>
+  <color:DarkBlue>+ exibir(relatorio_forma_pagamento: </color>
+  <color:DarkBlue> RelatorioFormaPagamento)-> RelatorioForma</color>
+  <color:DarkBlue>+ gerar(nome: str, periodo: str)-> bool</color>
+}
+
+class FluxoCaixa {
+  <color:SaddleBrown>- entrada: float</color>
+  <color:SaddleBrown>- saida: float</color>
+  <color:SaddleBrown>- saldo: float</color>
+  <color:DarkBlue>+ alterar(fluxo_caixa: FluxoCaixa): bool</color>
+  <color:DarkBlue>+ exibir(fluxo_caixa: FluxoCaixa): FluxoCaixa</color>
+  <color:DarkBlue>+ incluir(entrada: float, saida: float, total: float): bool</color>
+}
+
+' ===================== GENERALIZAÇÕES =====================
+UsuarioSistema <|- - UsuarioComum
+UsuarioSistema <|- - Administrador
+UsuarioComum  <|- - Terapeuta
+UsuarioComum  <|- - Assistente
+
+RelatorioConvenio       - -|> Relatorio
+RelatorioRentabilidade  - -|> Relatorio
+RelatorioFluxoCaixa     - -|> Relatorio
+RelatorioProcedimento   - -|> Relatorio
+RelatorioFormaPagamento - -|> Relatorio
+
+' ===================== ASSOCIAÇÕES E MULTIPLICIDADES =====================
+Terapeuta "1" *- - "1" Sessao : Tem
+Paciente  "1" *- - "1" Sessao : Tem
+Clinica "1" *- - "1..*" Assistente : Possui
+Sessao "0..*" *- - "1" Agenda : Possui
+Sessao "1" *- - "1" Pagamento : Possui
+Sessao "1" o- - "1" Convenio : Usa
+Paciente "1" *- - "1" Prontuario : Tem
+Paciente "1" *- - "1" Anamnese : Tem
+Paciente "1" *- - "1" PlanoIntervencao : Tem
+FluxoCaixa "1" *- - "0..*" RelatorioFluxoCaixa
+FluxoCaixa "1" *- - "0..*" RelatorioRentabilidade
+Convenio "1" *- - "0..*" RelatorioConvenio
+Prontuario"1" *- - "0..*" RelatorioProcedimento
+Pagamento"1" *- - "0..*" RelatorioFormaPagamento
+EnumTipoPagamento - -> Pagamento
+@enduml
+
+@startuml
+skinparam linetype ortho
+skinparam classAttributeIconSize 1
+
+class UsuarioSistema {
+  <color:SaddleBrown>- nome_user: str      </color>
+  <color:SaddleBrown>- senha_user: str     </color>
+  <color:SaddleBrown>- status_log: str     </color>
+  <color:DarkBlue>+ incluir(nome_user: str, senha_user, str, status_log: str) -> bool  </color>
+  <color:DarkBlue>+ registrar_log() -> bool  </color>
+  <color:DarkBlue>+ verificar_log() -> bool   </color>
+}
+
+class UsuarioComum {
+  <color:SaddleBrown>- endereco: str</color>
+  <color:SaddleBrown>- cpf: str</color>
+  <color:SaddleBrown>- email: str</color>
+  <color:SaddleBrown>- telefone: str</color>
+  <color:DarkBlue>+ alterar(usuario: Usuario) -> bool</color>
+  <color:DarkBlue>+ buscar(descricao: str): List<Usuario></color>
+  <color:DarkBlue>+ excluir(usuario: Usuario) -> bool</color>
+  <color:DarkBlue>+ exibir(usuario: Usuario)-> Usuario</color>
+  <color:DarkBlue>+ incluir(usuario_sistema: UsuarioSistema, </color>
+  <color:DarkBlue>endereco: str, cpf: str, email: str, telefone: str)-> bool</color>
+
+}
+
+class Administrador {
+  <color:SaddleBrown>- email: str</color>
+  <color:DarkBlue>+ configurarHorarios(terapeuta: Terapeuta, horarios: List<Horario></color>
+  <color:DarkBlue>diasSemana: List<String>) -> Bool</color>
+  <color:DarkBlue>+ definirTiposSessao(tipoSessao: TipoSessao) -> Bool</color>
+  <color:DarkBlue>+ configurarRegrasCobranca(terapeuta: Terapeuta, percentualRepasse: Float</color>
+  <color:DarkBlue>valorBase: Float) -> Bool</color>
+  <color:DarkBlue>+ configurarNotificacoes(tipo: String, mensagem: String, gatilho: TipoGatilho) -> Bool</color>
+  <color:DarkBlue>+ definirDocumentos(documento: Documento, obrigatorio: Bool) -> Bool</color>
+  <color:DarkBlue>+ registrarLog(acao: String, usuario: Usuario) -> Bool</color>
+  <color:DarkBlue>+ definirTamanhoUpload(tamanhoMaximo: Integer) -> Bool</color>
+  <color:DarkBlue>+ gerenciarTemplates(template: Template) ->Bool</color>
+  <color:DarkBlue>+ definirAcesso(usuario: Usuario) -> Bool</color>
+  <color:DarkBlue>+ visualizarLog(filtroData: Date, filtroUsuario: Usuario) -> List<Log></color>
+  <color:DarkBlue>+ visualizarNotificacoes() -> List<Notificacao></color>
+    
+}
+
+class Terapeuta {
+  <color:SaddleBrown>- crefito: str     </color>
+  <color:DarkBlue>+ incluir(usuario_comum: UsuarioComum, crefito: str)-> bool</color>
+}
+
+class Assistente {
+  <color:SaddleBrown>- nome_clinica: str,    </color>
+  <color:SaddleBrown>- clinica: Clinica     </color>
+  <color:DarkBlue>+ incluir(usuario_comum: UsuarioComum, nome_clinica: str)-> bool</color>
+}
+
+class Paciente {
+  <color:SaddleBrown>- nome_paciente: str</color>
+  <color:SaddleBrown>- endereco: str</color>
+  <color:SaddleBrown>- email: str</color>
+  <color:SaddleBrown>- cpf: str</color>
+  <color:SaddleBrown>- telefone: str</color>
+  <color:SaddleBrown>- cpf_responsavel: str</color>
+  <color:SaddleBrown>- nome_responsavel: str</color>
+  <color:DarkBlue>+ alterar(paciente: Paciente)-> bool</color>
+  <color:DarkBlue>+ buscar(descricao: str)-> List<Paciente></color>
+  <color:DarkBlue>+ excluir(paciente: Paciente) -> bool</color>
+  <color:DarkBlue>+ exibir(paciente: Paciente)-> Paciente</color>
+  <color:DarkBlue>+ incluir(nome_paciente: str, endereco: str,email: str, </color>
+  <color:DarkBlue>cpf_responsavel:cpf: str, telefone: str, cpf_responsavel: str, nome_responsavel: str)-> bool</color>
+}
+
+
+
+class Clinica {
+  <color:SaddleBrown>- nome_clinica: str</color>
+  <color:SaddleBrown>- endereco: str</color>
+  <color:SaddleBrown>- email: str</color>
+  <color:SaddleBrown>- cnpj: str</color>
+  <color:SaddleBrown>- telefone: str</color>
+  <color:DarkBlue>+ excluir(clinica: Clinica)-> bool</color>
+  <color:DarkBlue>+ incluir(nome_clinica: str, endereco: str,</color>
+   <color:DarkBlue>email: str, cnpj: str, telefone: str)-> bool</color>
+}
+
+
+class Prontuario {
+  <color:SaddleBrown>- id_prontuario: int</color>
+  <color:SaddleBrown>- data: datetime</color>
+  <color:SaddleBrown>- procedimento: str</color>
+  <color:SaddleBrown>- paciente: Paciente</color>
+  <color:SaddleBrown>- diagnostico: str</color>
+  <color:DarkBlue>+ alterar(prontuario: Prontuario)-> bool</color>
+  <color:DarkBlue>+ buscar(descricao: str): List<Prontuario></color>
+  <color:DarkBlue>+ excluir(prontuario: Prontuario)-> bool</color>
+  <color:DarkBlue>+ exibir(prontuario: Prontuario)-> Prontuario</color>
+  <color:DarkBlue>+ incluir(id_prontuario: int, data: datetime, procedimento: str, paciente: Paciente</color> 
+  <color:DarkBlue>diagnostico: str)-> bool</color>
+  <color:DarkBlue>+ arquivar_prontuario(prontuario: Prontuario)-> bool</color>
+  <color:DarkBlue>+ recuperar_prontuario(id_prontuario: int)-> Prontuario</color>
+}
+
+class Agenda {
+  <color:SaddleBrown>- data: datetime</color>
+  <color:SaddleBrown>- horario_reservado: str</color>
+  <color:SaddleBrown>- sessao: Sessao</color>
+  <color:DarkBlue>+ reservar_horario(agenda: Agenda)-> bool</color>
+  <color:DarkBlue>+ liberar_horario(agenda: Agenda)-> bool</color>
+  <color:DarkBlue>+ verificar_disponibilidade(agenda: Agenda)-> bool</color>
+}
+
+class Sessao {
+  <color:SaddleBrown>- data_sessao: datetime</color>
+  <color:SaddleBrown>- valor_pago: float</color>
+  <color:SaddleBrown>- nome_paciente: str</color>
+  <color:SaddleBrown>- paciente: Paciente</color>
+  <color:SaddleBrown>- nome_usuario: str</color>
+  <color:SaddleBrown>- terapeuta: Terapeuta</color>
+  <color:SaddleBrown>- pagamento: Pagamento</color>
+  <color:SaddleBrown>- convenio: Convenio</color>
+  <color:SaddleBrown>- evolucao: str</color>
+  <color:SaddleBrown>- status_presenca: str</color
+  <color:DarkBlue>+ alterar(sessao: Sessao)-> bool</color>
+  <color:DarkBlue>+ buscar(descricao: str)-> List<Sessao></color>
+  <color:DarkBlue>+ excluir(sessao: Sessao)-> bool</color>
+  <color:DarkBlue>+ exibir(sessao: Sessao)-> Sessao</color>
+  <color:DarkBlue>+ incluir(paciente: Paciente, data_sessao: datetime,</color>
+  <color:DarkBlue>terapeuta: Terapeuta, pagamento: Pagamento, convenio: Convenio)-> bool</color>
+  <color:DarkBlue>+ exibir_mensagem(mensagem: str)-> bool</color>
+  <color:DarkBlue>+ registrar_status(sessao:Sessao, statu_presenca: str)-> bool</color>
+  <color:DarkBlue>+ registrar_evolucao(sessao: Sessao, evolucao: str)-> bool</color>
+  <color:DarkBlue>+ duplicar_sessao(sessao: Sessao, nova_data: datetime)-> bool</color>
+  
+      
+}
+
+class Pagamento {
+  <color:SaddleBrown>- data_pagamento: datetime</color>
+  <color:SaddleBrown>- valor_pago: float</color>
+  <color:SaddleBrown>- tipo_pagamento: TipoPagamento</color>
+  <color:SaddleBrown>- status: str</color>
+  <color:SaddleBrown>- sessao: Sessao</color>
+  <color:DarkBlue>+ incluir(nome_paciente: str, data_pagamento: datetime, valor_pago: float</color>
+  <color:DarkBlue>forma_pagamento: TipoPagamento, status: str) -> bool</color>
+  <color:DarkBlue>+ alterar(pagamento: Pagamento) -> bool</color>
+}
+
+class Convenio {
+  <color:SaddleBrown>- nome: str</color>
+  <color:SaddleBrown>- cobertura: str</color>
+  <color:DarkBlue>+ alterar(convenio: Convenio) -> bool</color>
+  <color:DarkBlue>+ buscar(descricao: str) -> List<Convenio></color>
+  <color:DarkBlue>+ excluir(convenio: Convenio)-> bool</color>
+  <color:DarkBlue>+ exibir(convenio: Convenio)-> Convenio</color>
+  <color:DarkBlue>+ incluir(nome: str, cobertura: str)-> bool</color>
+}
+
+class Anamnese {
+  <color:SaddleBrown>- nome_paciente: str,</color>
+  <color:SaddleBrown>paciente:Paciente</color>
+  <color:SaddleBrown>- informacao: str</color>
+  <color:DarkBlue>+ alterar(anamnese: Anamnese)-> bool</color>
+  <color:DarkBlue>+ buscar(informacao: str)-> List<Anamnese></color>
+  <color:DarkBlue>+ excluir(anamnese: Anamnese)-> bool</color>
+  <color:DarkBlue>+ exibir(anamnese: Anamnese)-> Anamnese</color>
+  <color:DarkBlue>+ incluir(paciente: Paciente, informacao: str)-> bool</color>
+}
+
+class PlanoIntervencao {
+  <color:SaddleBrown>- nome_paciente: str,</color>
+  <color:SaddleBrown>paciente:Paciente</color>
+  <color:SaddleBrown>- meta: str</color>
+  <color:SaddleBrown>- objetivo: str</color>
+  <color:SaddleBrown>- estrategia: str</color>
+  <color:DarkBlue>+ alterar(plano_intervencao: PlanoIntervencao)-> bool</color>
+  <color:DarkBlue>+ buscar(descricao: str): List<PlanoIntervencao></color>
+  <color:DarkBlue>+ excluir(plano_intervencao: PlanoIntervencao)-> bool</color>
+  <color:DarkBlue>+ exibir(plano_intervencao: PlanoIntervencao)-> PlanoIntervencao</color>
+  <color:DarkBlue>+ incluir(paciente: Paciente, meta: str, objetivo: str, estrategia: str)-> bool</color>
+}
+enum EnumTipoPagamento {
+  DINHEIRO
+  PIX
+  CARTAO_CREDITO
+  CARTAO_DEBITO
+  BOLETO
+}
+
+abstract class Relatorio {
+  <color:SaddleBrown>- nome: str</color>
+  <color:SaddleBrown>- periodo: str</color>
+  <color:DarkBlue>+ {abstract} gerar(nome: str, periodo: str)-> bool</color>
+}
+
+class RelatorioConvenio {
+  <color:SaddleBrown>- convenio: Convenio</color>
+  <color:DarkBlue>+ exibir(relatorio_convenio: </color>
+  <color:DarkBlue>RelatorioConvenio)-> RelatorioConvenio </color>
+  <color:DarkBlue>+ gerar(nome: str, periodo: str)-> bool</color>
+  
+}
+
+class RelatorioRentabilidade {
+  <color:SaddleBrown>- fluxo_caixa: FluxoCaixa</color>
+  <color:SaddleBrown>- total_cliente: int</color>
+  <color:DarkBlue>+ exibir(relatorio_rentabilidade: </color>
+  <color:DarkBlue>RelatorioRentabilidade)-> RelatorioRentabilidade </color>
+  <color:DarkBlue>+ gerar(nome: str, periodo: str)-> bool</color>
+}
+
+class RelatorioFluxoCaixa {
+  <color:SaddleBrown>- fluxo_caixa: FluxoCaixa</color>
+  <color:DarkBlue>+ exibir(relatorio_fluxo_caixa: </color>
+  <color:DarkBlue>RelatorioFluxoCaixa) -> RelatorioFluxoCaixa</color>
+  <color:DarkBlue>+ gerar(nome: str, periodo: str)-> bool</color>
+}
+
+class RelatorioProcedimento {
+  <color:SaddleBrown>- procedimento: str</color>
+  <color:SaddleBrown>- prontuario: Prontuario</color>
+  <color:SaddleBrown>- qtde_procedimento: int</color>
+  <color:DarkBlue>+ exibir(relatorio_procedimento: </color>
+  <color:DarkBlue>RelatorioProcedimento)-> RelatorioProcedimento</color>
+  <color:DarkBlue>+ gerar(nome: str, periodo: str)-> bool</color>
+}
+
+class RelatorioFormaPagamento {
+  <color:SaddleBrown>- tipo_pagamento: TipoPagamento</color>
+  <color:SaddleBrown>- pagamento: Pagamento</color>
+  <color:SaddleBrown>- qtde_tipo: int</color>
+  <color:DarkBlue>+ exibir(relatorio_forma_pagamento: </color>
+  <color:DarkBlue> RelatorioFormaPagamento)-> RelatorioForma</color>
+  <color:DarkBlue>+ gerar(nome: str, periodo: str)-> bool</color>
+}
+
+class FluxoCaixa {
+  <color:SaddleBrown>- entrada: float</color>
+  <color:SaddleBrown>- saida: float</color>
+  <color:SaddleBrown>- saldo: float</color>
+  <color:DarkBlue>+ alterar(fluxo_caixa: FluxoCaixa): bool</color>
+  <color:DarkBlue>+ exibir(fluxo_caixa: FluxoCaixa): FluxoCaixa</color>
+  <color:DarkBlue>+ incluir(entrada: float, saida: float, total: float): bool</color>
+}
+
+UsuarioSistema <|- - UsuarioComum
+UsuarioSistema <|- - Administrador
+UsuarioComum  <|- - Terapeuta
+UsuarioComum  <|- - Assistente
+
+RelatorioConvenio       - -|> Relatorio
+RelatorioRentabilidade  - -|> Relatorio
+RelatorioFluxoCaixa     - -|> Relatorio
+RelatorioProcedimento   - -|> Relatorio
+RelatorioFormaPagamento - -|> Relatorio
+
+Terapeuta "1" *- - "1" Sessao : Tem
+Paciente  "1" *- - "1" Sessao : Tem
+Clinica "1" *- - "1..*" Assistente : Possui
+Sessao "0..*" *- - "1" Agenda : Possui
+Sessao "1" *- - "1" Pagamento : Possui
+Sessao "1" o- - "1" Convenio : Usa
+Paciente "1" *- - "1" Prontuario : Tem
+Paciente "1" *- - "1" Anamnese : Tem
+Paciente "1" *- - "1" PlanoIntervencao : Tem
+FluxoCaixa "1" *- - "0..*" RelatorioFluxoCaixa
+FluxoCaixa "1" *- - "0..*" RelatorioRentabilidade
+Convenio "1" *- - "0..*" RelatorioConvenio
+Prontuario"1" *- - "0..*" RelatorioProcedimento
+Pagamento"1" *- - "0..*" RelatorioFormaPagamento
+EnumTipoPagamento - -> Pagamento
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 17:01:30 UTC 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: null
+--></g></svg>
